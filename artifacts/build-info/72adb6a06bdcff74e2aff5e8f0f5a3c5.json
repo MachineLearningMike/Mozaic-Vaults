@@ -1,0 +1,267 @@
+{
+  "id": "72adb6a06bdcff74e2aff5e8f0f5a3c5",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.12",
+  "solcLongVersion": "0.8.12+commit.f00d7308",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/mContracts/MainVault.sol": {
+        "content": "// SPDX-License-Identifier: BUSL-1.1\n\npragma solidity ^0.8.0;\n\nimport \"./Vault.sol\";\n\ncontract MaintVault is Vault {\n\n}"
+      },
+      "contracts/mContracts/Vault.sol": {
+        "content": "// SPDX-License-Identifier: BUSL-1.1\n\npragma solidity ^0.8.0;\n\ncontract Vault {\n\n}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata",
+            "devdoc",
+            "userdoc",
+            "storageLayout",
+            "evm.gasEstimates"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      },
+      "metadata": {
+        "useLiteralContent": true
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/mContracts/MainVault.sol": {
+        "MaintVault": {
+          "abi": [],
+          "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+          },
+          "evm": {
+            "bytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220af8696a717b0fd25bd30add87612e3c21232e6d3e7f561db60622e40fd2208d764736f6c634300080c0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xAF DUP7 SWAP7 0xA7 OR 0xB0 REVERT 0x25 0xBD ADDRESS 0xAD 0xD8 PUSH23 0x12E3C21232E6D3E7F561DB60622E40FD2208D764736F6C PUSH4 0x4300080C STOP CALLER ",
+              "sourceMap": "86:33:0:-:0;;;;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea2646970667358221220af8696a717b0fd25bd30add87612e3c21232e6d3e7f561db60622e40fd2208d764736f6c634300080c0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xAF DUP7 SWAP7 0xA7 OR 0xB0 REVERT 0x25 0xBD ADDRESS 0xAD 0xD8 PUSH23 0x12E3C21232E6D3E7F561DB60622E40FD2208D764736F6C PUSH4 0x4300080C STOP CALLER ",
+              "sourceMap": "86:33:0:-:0;;;;;"
+            },
+            "gasEstimates": {
+              "creation": {
+                "codeDepositCost": "12600",
+                "executionCost": "66",
+                "totalCost": "12666"
+              }
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mContracts/MainVault.sol\":\"MaintVault\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/mContracts/MainVault.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Vault.sol\\\";\\n\\ncontract MaintVault is Vault {\\n\\n}\",\"keccak256\":\"0xf81e52fac487b79cdb74466173f98345cc782d656b41d0b7c78995287c66a2ea\",\"license\":\"BUSL-1.1\"},\"contracts/mContracts/Vault.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity ^0.8.0;\\n\\ncontract Vault {\\n\\n}\",\"keccak256\":\"0x7c66c884f155da8c0410abdb990a115ce9b1e1f6f81f4dd2c12b175c18ce2888\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+          "storageLayout": {
+            "storage": [],
+            "types": null
+          },
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      },
+      "contracts/mContracts/Vault.sol": {
+        "Vault": {
+          "abi": [],
+          "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+          },
+          "evm": {
+            "bytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122070fa04b2434badf317ba5ad887a4ccdde49fae503ff74226342914edb531b21364736f6c634300080c0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH17 0xFA04B2434BADF317BA5AD887A4CCDDE49F 0xAE POP EXTCODEHASH 0xF7 TIMESTAMP 0x26 CALLVALUE 0x29 EQ 0xED 0xB5 BALANCE 0xB2 SGT PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+              "sourceMap": "63:19:1:-:0;;;;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea264697066735822122070fa04b2434badf317ba5ad887a4ccdde49fae503ff74226342914edb531b21364736f6c634300080c0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH17 0xFA04B2434BADF317BA5AD887A4CCDDE49F 0xAE POP EXTCODEHASH 0xF7 TIMESTAMP 0x26 CALLVALUE 0x29 EQ 0xED 0xB5 BALANCE 0xB2 SGT PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+              "sourceMap": "63:19:1:-:0;;;;;"
+            },
+            "gasEstimates": {
+              "creation": {
+                "codeDepositCost": "12600",
+                "executionCost": "66",
+                "totalCost": "12666"
+              }
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mContracts/Vault.sol\":\"Vault\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/mContracts/Vault.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity ^0.8.0;\\n\\ncontract Vault {\\n\\n}\",\"keccak256\":\"0x7c66c884f155da8c0410abdb990a115ce9b1e1f6f81f4dd2c12b175c18ce2888\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+          "storageLayout": {
+            "storage": [],
+            "types": null
+          },
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      }
+    },
+    "sources": {
+      "contracts/mContracts/MainVault.sol": {
+        "ast": {
+          "absolutePath": "contracts/mContracts/MainVault.sol",
+          "exportedSymbols": {
+            "MaintVault": [
+              5
+            ],
+            "Vault": [
+              8
+            ]
+          },
+          "id": 6,
+          "license": "BUSL-1.1",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "38:23:0"
+            },
+            {
+              "absolutePath": "contracts/mContracts/Vault.sol",
+              "file": "./Vault.sol",
+              "id": 2,
+              "nameLocation": "-1:-1:-1",
+              "nodeType": "ImportDirective",
+              "scope": 6,
+              "sourceUnit": 9,
+              "src": "63:21:0",
+              "symbolAliases": [],
+              "unitAlias": ""
+            },
+            {
+              "abstract": false,
+              "baseContracts": [
+                {
+                  "baseName": {
+                    "id": 3,
+                    "name": "Vault",
+                    "nodeType": "IdentifierPath",
+                    "referencedDeclaration": 8,
+                    "src": "109:5:0"
+                  },
+                  "id": 4,
+                  "nodeType": "InheritanceSpecifier",
+                  "src": "109:5:0"
+                }
+              ],
+              "canonicalName": "MaintVault",
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 5,
+              "linearizedBaseContracts": [
+                5,
+                8
+              ],
+              "name": "MaintVault",
+              "nameLocation": "95:10:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 6,
+              "src": "86:33:0",
+              "usedErrors": []
+            }
+          ],
+          "src": "38:81:0"
+        },
+        "id": 0
+      },
+      "contracts/mContracts/Vault.sol": {
+        "ast": {
+          "absolutePath": "contracts/mContracts/Vault.sol",
+          "exportedSymbols": {
+            "Vault": [
+              8
+            ]
+          },
+          "id": 9,
+          "license": "BUSL-1.1",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 7,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "38:23:1"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "canonicalName": "Vault",
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 8,
+              "linearizedBaseContracts": [
+                8
+              ],
+              "name": "Vault",
+              "nameLocation": "72:5:1",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 9,
+              "src": "63:19:1",
+              "usedErrors": []
+            }
+          ],
+          "src": "38:44:1"
+        },
+        "id": 1
+      }
+    }
+  }
+}
