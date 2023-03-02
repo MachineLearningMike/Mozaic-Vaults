@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MozaicMainVault",
+  "sourceName": "contracts/mContracts/MozaicMainVault.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208d0e5dee3e4318a3ab650980af66cae93420acd4e65a5f27b1e7ca717a12231b64736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208d0e5dee3e4318a3ab650980af66cae93420acd4e65a5f27b1e7ca717a12231b64736f6c634300080c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

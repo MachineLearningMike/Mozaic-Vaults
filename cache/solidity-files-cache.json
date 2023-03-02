@@ -1955,7 +1955,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\lzApp\\LzApp.sol": {
-      "lastModificationDate": 1677662915738,
+      "lastModificationDate": 1677774374325,
       "contentHash": "db3cd8fcc91ea57fc62c07e2ead01d9b",
       "sourceName": "contracts/lzApp/LzApp.sol",
       "solcConfig": {
@@ -5603,95 +5603,9 @@
         "ExampleONFT721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MainVault.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "96ff29f5ffe6c1b6d93ee44e17b3c8bd",
-      "sourceName": "contracts/mContracts/MainVault.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./Vault.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "MaintVault"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\Vault.sol": {
-      "lastModificationDate": 1677662915754,
-      "contentHash": "92901f6044c53d9323d9f9e6c5344c5e",
-      "sourceName": "contracts/mContracts/Vault.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Vault"
-      ]
-    },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicLP.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "7f95660a15db3563699ca1982a6e0090",
+      "lastModificationDate": 1677780352941,
+      "contentHash": "983bca659972e4d162e03eba73c275f2",
       "sourceName": "contracts/mContracts/MozaicLP.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -5723,7 +5637,9 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "../token/oft/composable/ComposableOFT.sol"
+      ],
       "versionPragmas": [
         "^0.8.0"
       ],
@@ -5778,6 +5694,98 @@
       ],
       "artifacts": [
         "WidgetSwap"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicVault.sol": {
+      "lastModificationDate": 1677781356260,
+      "contentHash": "6a535cbafe78308cc5ad414d400701b9",
+      "sourceName": "contracts/mContracts/MozaicVault.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../interfaces/ILayerZeroReceiver.sol",
+        "../interfaces/ILayerZeroUserApplicationConfig.sol",
+        "../interfaces/ILayerZeroEndpoint.sol",
+        "../util/BytesLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MozaicVault"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicMainVault.sol": {
+      "lastModificationDate": 1677781382886,
+      "contentHash": "1320b2e5cfa9747f7098e13f64b93bbe",
+      "sourceName": "contracts/mContracts/MozaicMainVault.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./MozaicVault.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MozaicMainVault"
       ]
     }
   }
