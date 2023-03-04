@@ -93,6 +93,7 @@ module.exports = {
     ganache7545: {
         url: "http://127.0.0.1:7545",
         gasPrice: "auto",
+        accounts: accounts(),
     },
     ganache7546: {
         url: "http://127.0.0.1:7545",

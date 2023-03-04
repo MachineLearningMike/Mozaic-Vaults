@@ -523,6 +523,11 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
+"@layerzerolabs/lz-sdk@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@layerzerolabs/lz-sdk/-/lz-sdk-0.0.12.tgz#b41b5b266d41f89c0a720de48581e0a8910180a8"
+  integrity sha512-ldf+H8SVUF9EtaQg9y7XzGDP95lH4T/UIYVglL2DrNBe5CBiWm5wkL/5SnGpTgbLHbw60eLaGxQH/wmO6txAiQ==
+
 "@layerzerolabs/prettier-plugin-solidity@^1.0.0-beta.19":
   version "1.0.0-beta.19"
   resolved "https://registry.npmjs.org/@layerzerolabs/prettier-plugin-solidity/-/prettier-plugin-solidity-1.0.0-beta.19.tgz"

@@ -5604,7 +5604,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicLP.sol": {
-      "lastModificationDate": 1677780352941,
+      "lastModificationDate": 1677923201202,
       "contentHash": "983bca659972e4d162e03eba73c275f2",
       "sourceName": "contracts/mContracts/MozaicLP.sol",
       "solcConfig": {
@@ -5697,7 +5697,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicVault.sol": {
-      "lastModificationDate": 1677781356260,
+      "lastModificationDate": 1677936898984,
       "contentHash": "6a535cbafe78308cc5ad414d400701b9",
       "sourceName": "contracts/mContracts/MozaicVault.sol",
       "solcConfig": {
@@ -5745,7 +5745,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicMainVault.sol": {
-      "lastModificationDate": 1677781382886,
+      "lastModificationDate": 1677923201203,
       "contentHash": "1320b2e5cfa9747f7098e13f64b93bbe",
       "sourceName": "contracts/mContracts/MozaicMainVault.sol",
       "solcConfig": {
@@ -5789,7 +5789,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\Relayer.sol": {
-      "lastModificationDate": 1677877591858,
+      "lastModificationDate": 1677923201205,
       "contentHash": "1353c8c2f2ddc47041b10ea5da9ef408",
       "sourceName": "contracts/mContracts/lzContracts/Relayer.sol",
       "solcConfig": {
@@ -5842,8 +5842,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroRelayer.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "f3d50901ec2d340e9c531662013932f7",
+      "lastModificationDate": 1677923201191,
+      "contentHash": "cb49896b47963abe0457176237a83746",
       "sourceName": "contracts/interfaces/ILayerZeroRelayer.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -5884,8 +5884,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUltraLightNodeV1.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "665d4316113950887db104abcb561aa3",
+      "lastModificationDate": 1677923201201,
+      "contentHash": "28bc6798abecd5b900d94a0fa4cf8f5c",
       "sourceName": "contracts/interfaces/ILayerZeroUltraLightNodeV1.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -5926,7 +5926,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\RelayerV2.sol": {
-      "lastModificationDate": 1677877554504,
+      "lastModificationDate": 1677923201205,
       "contentHash": "132874314d690debf4d3a5057615f2f9",
       "sourceName": "contracts/mContracts/lzContracts/RelayerV2.sol",
       "solcConfig": {
@@ -5977,8 +5977,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroRelayerV2.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "1a0f293f207441964695bcb0f9ebfee1",
+      "lastModificationDate": 1677923201200,
+      "contentHash": "6538d479543a9834784579430c826ee1",
       "sourceName": "contracts/interfaces/ILayerZeroRelayerV2.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6019,8 +6019,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUltraLightNodeV2.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "62e37240e861340bb10fe34ff57f79b4",
+      "lastModificationDate": 1677923201202,
+      "contentHash": "1f720c6880c74a50d760a7afd98f026e",
       "sourceName": "contracts/interfaces/ILayerZeroUltraLightNodeV2.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6060,64 +6060,9 @@
         "ILayerZeroUltraLightNodeV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\UltraLightNodeV2.Mock.sol": {
-      "lastModificationDate": 1677879657887,
-      "contentHash": "659b62b4b80e5c413e2d90209f2f1f45",
-      "sourceName": "contracts/mContracts/lzContracts/UltraLightNodeV2.Mock.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/math/SafeMath.sol",
-        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "../../interfaces/ILayerZeroReceiver.sol",
-        "../../interfaces/ILayerZeroTreasury.sol",
-        "../../interfaces/ILayerZeroEndpoint.sol",
-        "../../interfaces/ILayerZeroMessagingLibraryV2.sol",
-        "../../interfaces/ILayerZeroUltraLightNodeV2.sol",
-        "../../interfaces/ILayerZeroRelayerV2.sol",
-        "./NonceContract.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "UltraLightNodeV2"
-      ]
-    },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroTreasury.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "acb6dc073230cd1211ab00799a1fe086",
+      "lastModificationDate": 1677923201201,
+      "contentHash": "c6c08eaada3bae803c80908509b79b7b",
       "sourceName": "contracts/interfaces/ILayerZeroTreasury.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6158,8 +6103,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroMessagingLibraryV2.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "719b7e150ce509c48ee5e0de5c756e72",
+      "lastModificationDate": 1677923201189,
+      "contentHash": "769eae2231dc2880fd88ddeb41418868",
       "sourceName": "contracts/interfaces/ILayerZeroMessagingLibraryV2.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6203,7 +6148,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\NonceContract.sol": {
-      "lastModificationDate": 1677877419275,
+      "lastModificationDate": 1677923201204,
       "contentHash": "e53846a10fc87050a3bef0874c58d935",
       "sourceName": "contracts/mContracts/lzContracts/NonceContract.sol",
       "solcConfig": {
@@ -6247,8 +6192,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroMessagingLibrary.sol": {
-      "lastModificationDate": 1677869520372,
-      "contentHash": "6cb04cd0e18c3cf3334647371b0aeba1",
+      "lastModificationDate": 1677923201188,
+      "contentHash": "6021325ba667e7dd7f0b75daa5f88821",
       "sourceName": "contracts/interfaces/ILayerZeroMessagingLibrary.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6291,7 +6236,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\LayerZeroPacket.sol": {
-      "lastModificationDate": 1677879003776,
+      "lastModificationDate": 1677923201207,
       "contentHash": "41bf7b5ea0bee9e021b879f8a0814d16",
       "sourceName": "contracts/util/LayerZeroPacket.sol",
       "solcConfig": {
@@ -6336,7 +6281,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\Buffer.sol": {
-      "lastModificationDate": 1677877429658,
+      "lastModificationDate": 1677923201206,
       "contentHash": "62dace4f71c1d8cdefbfa0178969113b",
       "sourceName": "contracts/util/Buffer.sol",
       "solcConfig": {
@@ -6378,7 +6323,7 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\Endpoint.sol": {
-      "lastModificationDate": 1677877435975,
+      "lastModificationDate": 1677923201204,
       "contentHash": "29f1123db346635af165c98444dd8dd5",
       "sourceName": "contracts/mContracts/lzContracts/Endpoint.sol",
       "solcConfig": {
@@ -6425,8 +6370,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroEndpoint copy.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "e7a10f6dec142b4a092dc72cec298a36",
+      "lastModificationDate": 1677923201188,
+      "contentHash": "31710c059b4c5598ba951f039398e547",
       "sourceName": "contracts/interfaces/ILayerZeroEndpoint copy.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6469,8 +6414,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroOracle.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "faae6477776a578da718372856b2bacd",
+      "lastModificationDate": 1677923201189,
+      "contentHash": "3dff07e3da825ad8987cdb23daa63776",
       "sourceName": "contracts/interfaces/ILayerZeroOracle.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6511,8 +6456,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroOracleV2.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "02d64a19b7be3fe3f1dc869ca3f82fe5",
+      "lastModificationDate": 1677923201190,
+      "contentHash": "2c14210300d6d95b93c56c6569fcfb7e",
       "sourceName": "contracts/interfaces/ILayerZeroOracleV2.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6553,8 +6498,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroReceiver copy.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "a59889a277d50c64cac08052dd8a1ce7",
+      "lastModificationDate": 1677923201190,
+      "contentHash": "6a032748036b9c6cd717bbe60b296a6a",
       "sourceName": "contracts/interfaces/ILayerZeroReceiver copy.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6595,8 +6540,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUserApplicationConfig copy.sol": {
-      "lastModificationDate": 1677696796482,
-      "contentHash": "23b39838bae6c9a7b6da4658b3fc8dc0",
+      "lastModificationDate": 1677923201202,
+      "contentHash": "b9137e036bbe54f3f8c840b241556ddf",
       "sourceName": "contracts/interfaces/ILayerZeroUserApplicationConfig copy.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6720,6 +6665,339 @@
       ],
       "artifacts": [
         "UltraLightNodeEVMDecoder"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\OmniCounter.sol": {
+      "lastModificationDate": 1677938692541,
+      "contentHash": "09f76af6a8b19bc1018e42c36f99472d",
+      "sourceName": "contracts/mocks/OmniCounter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../interfaces/ILayerZeroReceiver.sol",
+        "../interfaces/ILayerZeroEndpoint.sol",
+        "../interfaces/ILayerZeroUserApplicationConfig.sol",
+        "../mContracts/lzContracts/Relayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OmniCounter"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\PingPong.sol": {
+      "lastModificationDate": 1677938394274,
+      "contentHash": "af7cbc910cb37bced8c89cfef50b64a8",
+      "sourceName": "contracts/mocks/PingPong.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ILayerZeroReceiver.sol",
+        "../interfaces/ILayerZeroEndpoint.sol",
+        "../interfaces/ILayerZeroUserApplicationConfig.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PingPong"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1677663139072,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\UltraLightNodeV2_WO_Validation.sol": {
+      "lastModificationDate": 1677936894788,
+      "contentHash": "659b62b4b80e5c413e2d90209f2f1f45",
+      "sourceName": "contracts/mContracts/lzContracts/UltraLightNodeV2_WO_Validation.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "../../interfaces/ILayerZeroReceiver.sol",
+        "../../interfaces/ILayerZeroTreasury.sol",
+        "../../interfaces/ILayerZeroEndpoint.sol",
+        "../../interfaces/ILayerZeroMessagingLibraryV2.sol",
+        "../../interfaces/ILayerZeroUltraLightNodeV2.sol",
+        "../../interfaces/ILayerZeroRelayerV2.sol",
+        "./NonceContract.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UltraLightNodeV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroOracleMock.sol": {
+      "lastModificationDate": 1677938418800,
+      "contentHash": "d68b025efc19d17fbd4a9737e27d8323",
+      "sourceName": "contracts/mocks/LayerZeroOracleMock.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../interfaces/ILayerZeroOracle.sol",
+        "../interfaces/ILayerZeroUltraLightNodeV1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LayerZeroOracleMock"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroOracleBadMock.sol": {
+      "lastModificationDate": 1677938602286,
+      "contentHash": "a0f583e81f769d380cc4ecafa7f6ad76",
+      "sourceName": "contracts/mocks/LayerZeroOracleBadMock.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../interfaces/ILayerZeroOracle.sol",
+        "../interfaces/ILayerZeroUltraLightNodeV1.sol",
+        "../interfaces/ILayerZeroEndpoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LayerZeroOracleBadMock"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroTokenMock.sol": {
+      "lastModificationDate": 1677937795041,
+      "contentHash": "ea5afe97c249a1bb40df478db4e2c2bb",
+      "sourceName": "contracts/mocks/LayerZeroTokenMock.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LayerZeroTokenMock"
       ]
     }
   }

@@ -646,9 +646,11 @@ describe("====================== Preface ======================\n".yellow, async
     console.log("\tContracts link: \n\t%s".green,
       "https://github.com/MachineLearningMike/MozaicCore");
     console.log("\tTest script link: \n\t%s".green,
-      "https://github.com/crosswise-finance/crosswise-contracts-post-audit/blob/master/test-dex/comprehensive%202.js");
+      "https://....js");
   });
 });
+
+const { Endpoint } = require("../deploy/Endpoint")
 
 describe("====================== Stage 1: Deploy contracts ======================\n".yellow, async function () {
   it("Main contracts are deployed.\n".green, async function () {
@@ -663,7 +665,7 @@ describe("====================== Stage 1: Deploy contracts =====================
     //========================== Deploy ============================
     console.log("\n\tDeploying contracts...".green);
 
-
+    Endpoint()
 
   });
 
