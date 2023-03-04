@@ -6,32 +6,6 @@ require("colors");
 const crssPerBlock = 1;
 const crssPerRepayBlock = 0.35;
 
-const CrossPairArtifacts = require("../artifacts/contracts/core/CrossPair.sol/CrossPair.json");
-const ERC20Abi = require("../artifacts/@openzeppelin/contracts/token/ERC20/ERC20.sol/ERC20.json");
-
-const {
-  deployWireLibrary,
-  deployCrss,
-  deployWBNB,
-  deployFactory,
-  deployFarmLibrary,
-  deployFarm,
-  deployCenter,
-  deployCrossLibrary,
-  deployRouterLibrary,
-  deployMaker,
-  deployTaker,
-  deployXCrss,
-  deployReferral,
-  deployMockToken,
-  deployRCrss,
-  deployRSyrup,
-  deployRepay,
-  verifyContract,
-  verifyUpgradeable,
-  getCreate2Address,
-  sqrt,
-} = require("./utils");
 const { assert } = require("console");
 const { yellow, cyan } = require("colors");
 const { zeroAddress } = require("ethereumjs-util");
@@ -690,105 +664,6 @@ describe("====================== Stage 1: Deploy contracts =====================
     console.log("\n\tDeploying contracts...".green);
 
 
-    // WireLibrary Deployment for Farm, Crss, Maker, and Taker.
-    wireLib = await deployWireLibrary(owner);
-    consoleLogWithTab(`WireLibrary deployed at: ${wireLib.address}`);
-
-    // Factory Deployment.
-    factory = await deployFactory(owner, wireLib.address);
-    consoleLogWithTab(`Factory deployed at: ${factory.address}`);
-
-    console.log("\tCrossFactory contract was deployed at: ", factory.address);
-    console.log("\t!!! Pair's bytecode hash = \n\t", (await factory.INIT_CODE_PAIR_HASH()).substring(2));
-    console.log("\t!!! Please make sure the pairFor(...) function of CrossLibrary.sol file has the same hash.");
-
-    // WBNB Deployment.
-    wbnb = await deployWBNB(owner);
-    consoleLogWithTab(`WBNB deployed at: ${wbnb.address}`);
-
-    center = await deployCenter(owner, wireLib.address);
-    center.address = center.address;
-    consoleLogWithTab(`ContralCenter deployed at: ${center.address}`);
-
-    crossLib = await deployCrossLibrary(owner);
-    consoleLogWithTab(`CrossLibrary deployed at: ${crossLib.address}`);
-
-    // RouterLibrary Deployment for Maker and Taker.
-    routerLib = await deployRouterLibrary(owner);
-    consoleLogWithTab(`RouterLibrary deployed at: ${routerLib.address}`);
-
-    // Maker Deployment.
-    maker = await deployMaker(owner, wbnb.address, wireLib.address, routerLib.address);
-    consoleLogWithTab(`Maker deployed at: ${maker.address}`);
-
-    // Taker Deployment.
-    taker = await deployTaker(owner, wbnb.address, wireLib.address, routerLib.address);
-    consoleLogWithTab(`Taker deployed at: ${taker.address}`);
-
-    // CRSS Deployment.
-    crss = await deployCrss(owner, wireLib.address);
-    consoleLogWithTab(`CRSS Token deployed at: ${crss.address}`);
-
-    // Referral Deployment.
-    referral = await deployReferral(owner);
-    consoleLogWithTab(`Referral deployed at: ${referral.address}`);
-
-    // FarmLibrary Deployment for Farm.
-    farmLib = await deployFarmLibrary(owner);
-    consoleLogWithTab(`FarmLibrary deployed at: ${farmLib.address}`);
-
-    // Farm Deployment.
-    const startBlock = (await ethers.provider.getBlock("latest")).number + 10;
-    farm = await deployFarm(owner, crss.address, ethToWei(crssPerBlock), startBlock, wireLib.address, farmLib.address);
-    consoleLogWithTab(`Farm deployed at: ${farm.address}`);
-
-    // XCRSS Deployment.
-    xCrss = await deployXCrss(owner, "Crosswise xCrss Token", "xCRSS", wireLib.address);
-    consoleLogWithTab(`XCRSS deployed at: ${xCrss.address}`);
-
-    // Mock Token Deployment.
-    mock = await deployMockToken(owner, "Mock", "MCK");
-    consoleLogWithTab(`mock deployed at: ${mock.address}`);
-
-    // Mock Token Deployment.
-    mock2 = await deployMockToken(owner, "Mock2", "MCK2");
-    consoleLogWithTab(`mock2 deployed at: ${mock2.address}`);
-
-
-    //-------------------- compensation contracts -----------
-
-    rSyrup = await deployRSyrup(owner, crss.address);
-    rSyrup.address = rSyrup.address;
-    consoleLogWithTab(`rSyrup deployed at: ${rSyrup.address}`);
-
-    // repay Deployment.
-    const startRepayBlock = (await ethers.provider.getBlock("latest")).number;
-    repay = await deployRepay(owner, crss.address, rSyrup.address, ethToWei(crssPerRepayBlock), startRepayBlock, wireLib.address);
-    consoleLogWithTab(`repay deployed at: ${repay.address}`);
-
-    tx = rSyrup.connect(owner).transferOwnership(repay.address); // Permanent. Irrevocable.
-    (await tx).wait();
-    console.log("\trepay became the owner of rSyrupBar");
-
-    let test_losses = [
-      ["0x70997970C51812dc3A010C7d01b50e0d17dc79C8", utils.parseEther((1).toString())],
-      ["0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC", utils.parseEther((10).toString())],
-      ["0x90F79bf6EB2c4f870365E785982E1f101E93b906", utils.parseEther((100).toString())],
-    ];
-
-    for (i=0; i<100; i++) {
-      test_losses.push(["0x90F79bf6EB2c4f870365E785982E1f101E93b906", utils.parseEther((100).toString())]);
-    }
-
-    for(i = 0; i < 25; i++)
-    repay.connect(owner).loadLossDataSplit(test_losses);  
-
-    await center.setLiquidityChangeLimit(5000); // set it 5%.
-    await center.setPriceChangeLimit(5000); // set it 5%
-
-    await setupNodeChain(); // ========================================
-
-    await crss.begin(zero_address);
 
   });
 
