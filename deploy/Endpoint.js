@@ -1,5 +1,4 @@
 const { getEndpointId } = require("../utils/network")
-const CONFIG = require("../constants/config.json")
 
 function getDependencies() {
     let rtn = ["Endpoint"]

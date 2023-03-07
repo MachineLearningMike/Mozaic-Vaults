@@ -90,15 +90,6 @@ module.exports = {
   },
 
   networks: {
-    ganache7545: {
-        url: "http://127.0.0.1:7545",
-        gasPrice: "auto",
-        accounts: accounts(),
-    },
-    ganache7546: {
-        url: "http://127.0.0.1:7545",
-        gasPrice: "auto",
-    },
     ethereum: {
       url: "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161", // public infura endpoint
       chainId: 1,
