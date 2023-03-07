@@ -1,0 +1,159 @@
+{
+  "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_endpoint",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "endpoint",
+      "outputs": [
+        {
+          "internalType": "contract ILayerZeroEndpoint",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "_chainId",
+          "type": "uint16"
+        },
+        {
+          "internalType": "address",
+          "name": "_ua",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "_path",
+          "type": "bytes"
+        }
+      ],
+      "name": "increment",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "outboundNonce",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x2d70591fa47b201125c5318e059bfeec15bdb7091a2dae7acfa86929f3ad1523",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "transactionIndex": 0,
+    "gasUsed": "313474",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x180ef5cd7fe83540538a87e3e9bd511890946517c33ecbe88422b959b1d0f552",
+    "transactionHash": "0x2d70591fa47b201125c5318e059bfeec15bdb7091a2dae7acfa86929f3ad1523",
+    "logs": [],
+    "blockNumber": 3,
+    "cumulativeGasUsed": "313474",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "1522caf50543de0a74d894e1c0eec382",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_endpoint\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"endpoint\",\"outputs\":[{\"internalType\":\"contract ILayerZeroEndpoint\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint16\",\"name\":\"_chainId\",\"type\":\"uint16\"},{\"internalType\":\"address\",\"name\":\"_ua\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"_path\",\"type\":\"bytes\"}],\"name\":\"increment\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint16\",\"name\":\"\",\"type\":\"uint16\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"outboundNonce\",\"outputs\":[{\"internalType\":\"uint64\",\"name\":\"\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mContracts/lzContracts/NonceContract.sol\":\"NonceContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/interfaces/ILayerZeroEndpoint.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\n\\r\\npragma solidity >=0.5.0;\\r\\n\\r\\nimport \\\"./ILayerZeroUserApplicationConfig.sol\\\";\\r\\n\\r\\ninterface ILayerZeroEndpoint is ILayerZeroUserApplicationConfig {\\r\\n    // @notice send a LayerZero message to the specified address at a LayerZero endpoint.\\r\\n    // @param _dstChainId - the destination chain identifier\\r\\n    // @param _destination - the address on destination chain (in bytes). address length/format may vary by chains\\r\\n    // @param _payload - a custom bytes payload to send to the destination contract\\r\\n    // @param _refundAddress - if the source transaction is cheaper than the amount of value passed, refund the additional amount to this address\\r\\n    // @param _zroPaymentAddress - the address of the ZRO token holder who would pay for the transaction\\r\\n    // @param _adapterParams - parameters for custom functionality. e.g. receive airdropped native gas from the relayer on destination\\r\\n    function send(uint16 _dstChainId, bytes calldata _destination, bytes calldata _payload, address payable _refundAddress, address _zroPaymentAddress, bytes calldata _adapterParams) external payable;\\r\\n\\r\\n    // @notice used by the messaging library to publish verified payload\\r\\n    // @param _srcChainId - the source chain identifier\\r\\n    // @param _srcAddress - the source contract (as bytes) at the source chain\\r\\n    // @param _dstAddress - the address on destination chain\\r\\n    // @param _nonce - the unbound message ordering nonce\\r\\n    // @param _gasLimit - the gas limit for external contract execution\\r\\n    // @param _payload - verified payload to send to the destination contract\\r\\n    function receivePayload(uint16 _srcChainId, bytes calldata _srcAddress, address _dstAddress, uint64 _nonce, uint _gasLimit, bytes calldata _payload) external;\\r\\n\\r\\n    // @notice get the inboundNonce of a lzApp from a source chain which could be EVM or non-EVM chain\\r\\n    // @param _srcChainId - the source chain identifier\\r\\n    // @param _srcAddress - the source chain contract address\\r\\n    function getInboundNonce(uint16 _srcChainId, bytes calldata _srcAddress) external view returns (uint64);\\r\\n\\r\\n    // @notice get the outboundNonce from this source chain which, consequently, is always an EVM\\r\\n    // @param _srcAddress - the source chain contract address\\r\\n    function getOutboundNonce(uint16 _dstChainId, address _srcAddress) external view returns (uint64);\\r\\n\\r\\n    // @notice gets a quote in source native gas, for the amount that send() requires to pay for message delivery\\r\\n    // @param _dstChainId - the destination chain identifier\\r\\n    // @param _userApplication - the user app address on this EVM chain\\r\\n    // @param _payload - the custom message to send over LayerZero\\r\\n    // @param _payInZRO - if false, user app pays the protocol fee in native token\\r\\n    // @param _adapterParam - parameters for the adapter service, e.g. send some dust native token to dstChain\\r\\n    function estimateFees(uint16 _dstChainId, address _userApplication, bytes calldata _payload, bool _payInZRO, bytes calldata _adapterParam) external view returns (uint nativeFee, uint zroFee);\\r\\n\\r\\n    // @notice get this Endpoint's immutable source identifier\\r\\n    function getChainId() external view returns (uint16);\\r\\n\\r\\n    // @notice the interface to retry failed message on this Endpoint destination\\r\\n    // @param _srcChainId - the source chain identifier\\r\\n    // @param _srcAddress - the source chain contract address\\r\\n    // @param _payload - the payload to be retried\\r\\n    function retryPayload(uint16 _srcChainId, bytes calldata _srcAddress, bytes calldata _payload) external;\\r\\n\\r\\n    // @notice query if any STORED payload (message blocking) at the endpoint.\\r\\n    // @param _srcChainId - the source chain identifier\\r\\n    // @param _srcAddress - the source chain contract address\\r\\n    function hasStoredPayload(uint16 _srcChainId, bytes calldata _srcAddress) external view returns (bool);\\r\\n\\r\\n    // @notice query if the _libraryAddress is valid for sending msgs.\\r\\n    // @param _userApplication - the user app address on this EVM chain\\r\\n    function getSendLibraryAddress(address _userApplication) external view returns (address);\\r\\n\\r\\n    // @notice query if the _libraryAddress is valid for receiving msgs.\\r\\n    // @param _userApplication - the user app address on this EVM chain\\r\\n    function getReceiveLibraryAddress(address _userApplication) external view returns (address);\\r\\n\\r\\n    // @notice query if the non-reentrancy guard for send() is on\\r\\n    // @return true if the guard is on. false otherwise\\r\\n    function isSendingPayload() external view returns (bool);\\r\\n\\r\\n    // @notice query if the non-reentrancy guard for receive() is on\\r\\n    // @return true if the guard is on. false otherwise\\r\\n    function isReceivingPayload() external view returns (bool);\\r\\n\\r\\n    // @notice get the configuration of the LayerZero messaging library of the specified version\\r\\n    // @param _version - messaging library version\\r\\n    // @param _chainId - the chainId for the pending config change\\r\\n    // @param _userApplication - the contract address of the user application\\r\\n    // @param _configType - type of configuration. every messaging library has its own convention.\\r\\n    function getConfig(uint16 _version, uint16 _chainId, address _userApplication, uint _configType) external view returns (bytes memory);\\r\\n\\r\\n    // @notice get the send() LayerZero messaging library version\\r\\n    // @param _userApplication - the contract address of the user application\\r\\n    function getSendVersion(address _userApplication) external view returns (uint16);\\r\\n\\r\\n    // @notice get the lzReceive() LayerZero messaging library version\\r\\n    // @param _userApplication - the contract address of the user application\\r\\n    function getReceiveVersion(address _userApplication) external view returns (uint16);\\r\\n}\\r\\n\",\"keccak256\":\"0xb0f5dd5442f7f6dc3cba510c3170e5304de918b082ac658a2935433e80fefb66\",\"license\":\"MIT\"},\"contracts/interfaces/ILayerZeroUserApplicationConfig.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\n\\r\\npragma solidity >=0.5.0;\\r\\n\\r\\ninterface ILayerZeroUserApplicationConfig {\\r\\n    // @notice set the configuration of the LayerZero messaging library of the specified version\\r\\n    // @param _version - messaging library version\\r\\n    // @param _chainId - the chainId for the pending config change\\r\\n    // @param _configType - type of configuration. every messaging library has its own convention.\\r\\n    // @param _config - configuration in the bytes. can encode arbitrary content.\\r\\n    function setConfig(uint16 _version, uint16 _chainId, uint _configType, bytes calldata _config) external;\\r\\n\\r\\n    // @notice set the send() LayerZero messaging library version to _version\\r\\n    // @param _version - new messaging library version\\r\\n    function setSendVersion(uint16 _version) external;\\r\\n\\r\\n    // @notice set the lzReceive() LayerZero messaging library version to _version\\r\\n    // @param _version - new messaging library version\\r\\n    function setReceiveVersion(uint16 _version) external;\\r\\n\\r\\n    // @notice Only when the UA needs to resume the message flow in blocking mode and clear the stored payload\\r\\n    // @param _srcChainId - the chainId of the source chain\\r\\n    // @param _srcAddress - the contract address of the source contract at the source chain\\r\\n    function forceResumeReceive(uint16 _srcChainId, bytes calldata _srcAddress) external;\\r\\n}\\r\\n\",\"keccak256\":\"0x42d10415d035529fcdff738d6542844ad58124b4e1da5a8ff92d6ddd8bf96513\",\"license\":\"MIT\"},\"contracts/mContracts/lzContracts/NonceContract.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\r\\n\\r\\n\\r\\n\\r\\npragma solidity ^0.8.0;\\r\\n\\r\\nimport \\\"../../interfaces/ILayerZeroEndpoint.sol\\\";\\r\\n\\r\\ncontract NonceContract {\\r\\n    ILayerZeroEndpoint public immutable endpoint;\\r\\n    // outboundNonce = [dstChainId][remoteAddress + localAddress]\\r\\n    mapping(uint16 => mapping(bytes => uint64)) public outboundNonce;\\r\\n\\r\\n    constructor(address _endpoint) {\\r\\n        endpoint = ILayerZeroEndpoint(_endpoint);\\r\\n    }\\r\\n\\r\\n    function increment(uint16 _chainId, address _ua, bytes calldata _path) external returns (uint64) {\\r\\n        require(endpoint.getSendLibraryAddress(_ua) == msg.sender, \\\"NonceContract: msg.sender is not valid sendlibrary\\\");\\r\\n        return ++outboundNonce[_chainId][_path];\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x0866da6a247656cf0462c6845951f4961a07ffbdf6f3e50a1472765e895cfa9b\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+  "bytecode": "0x60a060405234801561001057600080fd5b5060405161053f38038061053f83398101604081905261002f91610040565b6001600160a01b0316608052610070565b60006020828403121561005257600080fd5b81516001600160a01b038116811461006957600080fd5b9392505050565b6080516104ae61009160003960008181604b015261011d01526104ae6000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80635e280f11146100465780636fe7b6731461008a578063c533338f146100b6575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b61009d6100983660046102a6565b6100f9565b60405167ffffffffffffffff9091168152602001610081565b61009d6100c436600461034c565b6000602081815292815260409020815180830184018051928152908401929093019190912091525467ffffffffffffffff1681565b604051639c729da160e01b81526001600160a01b03848116600483015260009133917f00000000000000000000000000000000000000000000000000000000000000001690639c729da190602401602060405180830381865afa158015610164573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610188919061040e565b6001600160a01b0316146101fd5760405162461bcd60e51b815260206004820152603260248201527f4e6f6e6365436f6e74726163743a206d73672e73656e646572206973206e6f746044820152712076616c69642073656e646c69627261727960701b606482015260840160405180910390fd5b61ffff85166000908152602081905260409081902090516102219085908590610432565b90815260405190819003602001902080546000906102489067ffffffffffffffff16610442565b91906101000a81548167ffffffffffffffff021916908367ffffffffffffffff16021790559050949350505050565b803561ffff8116811461028957600080fd5b919050565b6001600160a01b03811681146102a357600080fd5b50565b600080600080606085870312156102bc57600080fd5b6102c585610277565b935060208501356102d58161028e565b9250604085013567ffffffffffffffff808211156102f257600080fd5b818701915087601f83011261030657600080fd5b81358181111561031557600080fd5b88602082850101111561032757600080fd5b95989497505060200194505050565b634e487b7160e01b600052604160045260246000fd5b6000806040838503121561035f57600080fd5b61036883610277565b9150602083013567ffffffffffffffff8082111561038557600080fd5b818501915085601f83011261039957600080fd5b8135818111156103ab576103ab610336565b604051601f8201601f19908116603f011681019083821181831017156103d3576103d3610336565b816040528281528860208487010111156103ec57600080fd5b8260208601602083013760006020848301015280955050505050509250929050565b60006020828403121561042057600080fd5b815161042b8161028e565b9392505050565b8183823760009101908152919050565b600067ffffffffffffffff8083168181141561046e57634e487b7160e01b600052601160045260246000fd5b600101939250505056fea2646970667358221220b8bb3c3461c587d5a91693cfed9676235e04c8d8d7ef7d0c557201102c60a21964736f6c634300080c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80635e280f11146100465780636fe7b6731461008a578063c533338f146100b6575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b61009d6100983660046102a6565b6100f9565b60405167ffffffffffffffff9091168152602001610081565b61009d6100c436600461034c565b6000602081815292815260409020815180830184018051928152908401929093019190912091525467ffffffffffffffff1681565b604051639c729da160e01b81526001600160a01b03848116600483015260009133917f00000000000000000000000000000000000000000000000000000000000000001690639c729da190602401602060405180830381865afa158015610164573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610188919061040e565b6001600160a01b0316146101fd5760405162461bcd60e51b815260206004820152603260248201527f4e6f6e6365436f6e74726163743a206d73672e73656e646572206973206e6f746044820152712076616c69642073656e646c69627261727960701b606482015260840160405180910390fd5b61ffff85166000908152602081905260409081902090516102219085908590610432565b90815260405190819003602001902080546000906102489067ffffffffffffffff16610442565b91906101000a81548167ffffffffffffffff021916908367ffffffffffffffff16021790559050949350505050565b803561ffff8116811461028957600080fd5b919050565b6001600160a01b03811681146102a357600080fd5b50565b600080600080606085870312156102bc57600080fd5b6102c585610277565b935060208501356102d58161028e565b9250604085013567ffffffffffffffff808211156102f257600080fd5b818701915087601f83011261030657600080fd5b81358181111561031557600080fd5b88602082850101111561032757600080fd5b95989497505060200194505050565b634e487b7160e01b600052604160045260246000fd5b6000806040838503121561035f57600080fd5b61036883610277565b9150602083013567ffffffffffffffff8082111561038557600080fd5b818501915085601f83011261039957600080fd5b8135818111156103ab576103ab610336565b604051601f8201601f19908116603f011681019083821181831017156103d3576103d3610336565b816040528281528860208487010111156103ec57600080fd5b8260208601602083013760006020848301015280955050505050509250929050565b60006020828403121561042057600080fd5b815161042b8161028e565b9392505050565b8183823760009101908152919050565b600067ffffffffffffffff8083168181141561046e57634e487b7160e01b600052601160045260246000fd5b600101939250505056fea2646970667358221220b8bb3c3461c587d5a91693cfed9676235e04c8d8d7ef7d0c557201102c60a21964736f6c634300080c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 14162,
+        "contract": "contracts/mContracts/lzContracts/NonceContract.sol:NonceContract",
+        "label": "outboundNonce",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_uint64))"
+      }
+    ],
+    "types": {
+      "t_bytes_memory_ptr": {
+        "encoding": "bytes",
+        "label": "bytes",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_bytes_memory_ptr,t_uint64)": {
+        "encoding": "mapping",
+        "key": "t_bytes_memory_ptr",
+        "label": "mapping(bytes => uint64)",
+        "numberOfBytes": "32",
+        "value": "t_uint64"
+      },
+      "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_uint64))": {
+        "encoding": "mapping",
+        "key": "t_uint16",
+        "label": "mapping(uint16 => mapping(bytes => uint64))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_bytes_memory_ptr,t_uint64)"
+      },
+      "t_uint16": {
+        "encoding": "inplace",
+        "label": "uint16",
+        "numberOfBytes": "2"
+      },
+      "t_uint64": {
+        "encoding": "inplace",
+        "label": "uint64",
+        "numberOfBytes": "8"
+      }
+    }
+  }
+}

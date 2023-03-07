@@ -6,15 +6,11 @@ module.exports = async function ({ deployments, getNamedAccounts }) {
     const { deploy } = deployments
     const { deployer } = await getNamedAccounts()
 
-    console.log(`>>> your address: ${deployer}`)
-
-    // get the Endpoint address
-    const endpointAddr = LZ_ENDPOINTS[hre.network.name]
-    console.log(`[${hre.network.name}] LayerZero Endpoint address: ${endpointAddr}`)
+    const endpoint = await ethers.getContract("Endpoint")
 
     await deploy("ExampleOFT", {
         from: deployer,
-        args: [endpointAddr],
+        args: [endpoint.address],
         log: true,
         waitConfirmations: 1,
     })

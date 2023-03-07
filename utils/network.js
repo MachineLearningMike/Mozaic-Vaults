@@ -2,7 +2,7 @@ const { CHAIN_ID, CHAIN_STAGE, ChainStage } = require("@layerzerolabs/lz-sdk")
 
 function getEndpointId() {
     if (isLocalhost()) {
-        return 30137
+        return 1337
     }
     return CHAIN_ID[hre.network.name]
 }

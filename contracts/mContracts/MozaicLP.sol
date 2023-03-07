@@ -6,11 +6,11 @@ import "../token/oft/composable/ComposableOFT.sol";
 
 /// @title A LayerZero OmnichainFungibleToken example of BasedOFT
 /// @notice Use this contract only on the BASE CHAIN. It locks tokens on source, on outgoing send(), and unlocks tokens when receiving from other chains.
+
 contract MozaicLP is ComposableOFT {
     address public vault;
 
-    constructor(address _layerZeroEndpoint, uint _initialSupply) ComposableOFT("MozaicLiquidityProviderToken", "MLP", _layerZeroEndpoint) {
-        // No mint. _mint(_msgSender(), _initialSupply);
+    constructor(address _layerZeroEndpoint) ComposableOFT("Mozaic Liquidity Provider Token", "MLP", _layerZeroEndpoint) {
     }
 
     function setValut(address _vault) onlyOwner external virtual {

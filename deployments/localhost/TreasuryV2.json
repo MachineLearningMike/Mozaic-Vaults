@@ -1,0 +1,435 @@
+{
+  "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_ulnv2",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "feeEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "FeeEnabled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "bp",
+          "type": "uint256"
+        }
+      ],
+      "name": "NativeBP",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "zroEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "ZroEnabled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "zroFee",
+          "type": "uint256"
+        }
+      ],
+      "name": "ZroFee",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "feeEnabled",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "payInZro",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "relayerFee",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "oracleFee",
+          "type": "uint256"
+        }
+      ],
+      "name": "getFees",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "nativeBP",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "_feeEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "setFeeEnabled",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_nativeBP",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNativeBP",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "_zroEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "setZroEnabled",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_zroFee",
+          "type": "uint256"
+        }
+      ],
+      "name": "setZroFee",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "uln",
+      "outputs": [
+        {
+          "internalType": "contract ILayerZeroUltraLightNodeV2",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address payable",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdrawNativeFromULN",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdrawZROFromULN",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "zroEnabled",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "zroFee",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xb5d585d439dbebecc7a635f6837ad6cab2762dd0ee3cc5fcec1cea957bcd1867",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+    "transactionIndex": 0,
+    "gasUsed": "524205",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000020000000000000100000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000002000000000000000000000008000000000000000000000000000000000000000000000000000200000000000000000040000002000000000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xc23b62b23e70e24043f691804b89c3a1bc5a3b852774b7ce5af031aaf6fd0229",
+    "transactionHash": "0xb5d585d439dbebecc7a635f6837ad6cab2762dd0ee3cc5fcec1cea957bcd1867",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 10,
+        "transactionHash": "0xb5d585d439dbebecc7a635f6837ad6cab2762dd0ee3cc5fcec1cea957bcd1867",
+        "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+        ],
+        "data": "0x",
+        "logIndex": 0,
+        "blockHash": "0xc23b62b23e70e24043f691804b89c3a1bc5a3b852774b7ce5af031aaf6fd0229"
+      }
+    ],
+    "blockNumber": 10,
+    "cumulativeGasUsed": "524205",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "d561e1993c4580c1863d13e8ed58827c",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_ulnv2\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"feeEnabled\",\"type\":\"bool\"}],\"name\":\"FeeEnabled\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"bp\",\"type\":\"uint256\"}],\"name\":\"NativeBP\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"zroEnabled\",\"type\":\"bool\"}],\"name\":\"ZroEnabled\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"zroFee\",\"type\":\"uint256\"}],\"name\":\"ZroFee\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"feeEnabled\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bool\",\"name\":\"payInZro\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"relayerFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"oracleFee\",\"type\":\"uint256\"}],\"name\":\"getFees\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"nativeBP\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_feeEnabled\",\"type\":\"bool\"}],\"name\":\"setFeeEnabled\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_nativeBP\",\"type\":\"uint256\"}],\"name\":\"setNativeBP\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_zroEnabled\",\"type\":\"bool\"}],\"name\":\"setZroEnabled\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_zroFee\",\"type\":\"uint256\"}],\"name\":\"setZroFee\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"uln\",\"outputs\":[{\"internalType\":\"contract ILayerZeroUltraLightNodeV2\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"withdrawNativeFromULN\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"withdrawZROFromULN\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"zroEnabled\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"zroFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner.\"},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mContracts/lzContracts/TreasuryV2.sol\":\"TreasuryV2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _transferOwnership(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        _checkOwner();\\n        _;\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if the sender is not the owner.\\n     */\\n    function _checkOwner() internal view virtual {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions anymore. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby removing any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _transferOwnership(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _transferOwnership(newOwner);\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Internal function without access restriction.\\n     */\\n    function _transferOwnership(address newOwner) internal virtual {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/math/SafeMath.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.6.0) (utils/math/SafeMath.sol)\\n\\npragma solidity ^0.8.0;\\n\\n// CAUTION\\n// This version of SafeMath should only be used with Solidity 0.8 or later,\\n// because it relies on the compiler's built in overflow checks.\\n\\n/**\\n * @dev Wrappers over Solidity's arithmetic operations.\\n *\\n * NOTE: `SafeMath` is generally not needed starting with Solidity 0.8, since the compiler\\n * now has built in overflow checking.\\n */\\nlibrary SafeMath {\\n    /**\\n     * @dev Returns the addition of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryAdd(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            uint256 c = a + b;\\n            if (c < a) return (false, 0);\\n            return (true, c);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function trySub(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b > a) return (false, 0);\\n            return (true, a - b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMul(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            // Gas optimization: this is cheaper than requiring 'a' not being zero, but the\\n            // benefit is lost if 'b' is also tested.\\n            // See: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/522\\n            if (a == 0) return (true, 0);\\n            uint256 c = a * b;\\n            if (c / a != b) return (false, 0);\\n            return (true, c);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the division of two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryDiv(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b == 0) return (false, 0);\\n            return (true, a / b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMod(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b == 0) return (false, 0);\\n            return (true, a % b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the addition of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `+` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Addition cannot overflow.\\n     */\\n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a + b;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting on\\n     * overflow (when the result is negative).\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a - b;\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `*` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Multiplication cannot overflow.\\n     */\\n    function mul(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a * b;\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * Counterpart to Solidity's `/` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a / b;\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting when dividing by zero.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a % b;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting with custom message on\\n     * overflow (when the result is negative).\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {trySub}.\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b <= a, errorMessage);\\n            return a - b;\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting with custom message on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * Counterpart to Solidity's `/` operator. Note: this function uses a\\n     * `revert` opcode (which leaves remaining gas untouched) while Solidity\\n     * uses an invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b > 0, errorMessage);\\n            return a / b;\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting with custom message when dividing by zero.\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {tryMod}.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b > 0, errorMessage);\\n            return a % b;\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\"},\"contracts/interfaces/ILayerZeroTreasury.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\r\\n\\r\\n\\r\\n\\r\\npragma solidity >=0.5.0;\\r\\n\\r\\ninterface ILayerZeroTreasury {\\r\\n    function getFees(bool payInZro, uint relayerFee, uint oracleFee) external view returns (uint);\\r\\n}\\r\\n\",\"keccak256\":\"0x900fa5cf0eade8555ccab31732128779a0498e06dc26737952a88bc6f532586a\",\"license\":\"BUSL-1.1\"},\"contracts/interfaces/ILayerZeroUltraLightNodeV2.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\r\\n\\r\\n\\r\\n\\r\\npragma solidity >=0.7.0;\\r\\npragma abicoder v2;\\r\\n\\r\\ninterface ILayerZeroUltraLightNodeV2 {\\r\\n    // Relayer functions\\r\\n    function validateTransactionProof(uint16 _srcChainId, address _dstAddress, uint _gasLimit, bytes32 _lookupHash, bytes32 _blockData, bytes calldata _transactionProof) external;\\r\\n\\r\\n    // an Oracle delivers the block data using updateHash()\\r\\n    function updateHash(uint16 _srcChainId, bytes32 _lookupHash, uint _confirmations, bytes32 _blockData) external;\\r\\n\\r\\n    // can only withdraw the receivable of the msg.sender\\r\\n    function withdrawNative(address payable _to, uint _amount) external;\\r\\n\\r\\n    function withdrawZRO(address _to, uint _amount) external;\\r\\n\\r\\n    // view functions\\r\\n    function getAppConfig(uint16 _remoteChainId, address _userApplicationAddress) external view returns (ApplicationConfiguration memory);\\r\\n\\r\\n    function accruedNativeFee(address _address) external view returns (uint);\\r\\n\\r\\n    struct ApplicationConfiguration {\\r\\n        uint16 inboundProofLibraryVersion;\\r\\n        uint64 inboundBlockConfirmations;\\r\\n        address relayer;\\r\\n        uint16 outboundProofType;\\r\\n        uint64 outboundBlockConfirmations;\\r\\n        address oracle;\\r\\n    }\\r\\n\\r\\n    event HashReceived(uint16 indexed srcChainId, address indexed oracle, bytes32 lookupHash, bytes32 blockData, uint confirmations);\\r\\n    event RelayerParams(bytes adapterParams, uint16 outboundProofType);\\r\\n    event Packet(bytes payload);\\r\\n    event InvalidDst(uint16 indexed srcChainId, bytes srcAddress, address indexed dstAddress, uint64 nonce, bytes32 payloadHash);\\r\\n    event PacketReceived(uint16 indexed srcChainId, bytes srcAddress, address indexed dstAddress, uint64 nonce, bytes32 payloadHash);\\r\\n    event AppConfigUpdated(address indexed userApplication, uint indexed configType, bytes newConfig);\\r\\n    event AddInboundProofLibraryForChain(uint16 indexed chainId, address lib);\\r\\n    event EnableSupportedOutboundProof(uint16 indexed chainId, uint16 proofType);\\r\\n    event SetChainAddressSize(uint16 indexed chainId, uint size);\\r\\n    event SetDefaultConfigForChainId(uint16 indexed chainId, uint16 inboundProofLib, uint64 inboundBlockConfirm, address relayer, uint16 outboundProofType, uint64 outboundBlockConfirm, address oracle);\\r\\n    event SetDefaultAdapterParamsForChainId(uint16 indexed chainId, uint16 indexed proofType, bytes adapterParams);\\r\\n    event SetLayerZeroToken(address indexed tokenAddress);\\r\\n    event SetRemoteUln(uint16 indexed chainId, bytes32 uln);\\r\\n    event SetTreasury(address indexed treasuryAddress);\\r\\n    event WithdrawZRO(address indexed msgSender, address indexed to, uint amount);\\r\\n    event WithdrawNative(address indexed msgSender, address indexed to, uint amount);\\r\\n}\\r\\n\",\"keccak256\":\"0xec9d3147e943dc34f8ca8721edfafc8cb04346760d432dd7c9b88d64adb47623\",\"license\":\"BUSL-1.1\"},\"contracts/mContracts/lzContracts/TreasuryV2.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\r\\n\\r\\n\\r\\n\\r\\npragma solidity ^0.8.0;\\r\\n\\r\\nimport \\\"../../interfaces/ILayerZeroTreasury.sol\\\";\\r\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\r\\nimport \\\"@openzeppelin/contracts/utils/math/SafeMath.sol\\\";\\r\\nimport \\\"../../interfaces/ILayerZeroUltraLightNodeV2.sol\\\";\\r\\n\\r\\ncontract TreasuryV2 is ILayerZeroTreasury, Ownable {\\r\\n    using SafeMath for uint;\\r\\n\\r\\n    uint public nativeBP;\\r\\n    uint public zroFee;\\r\\n    bool public feeEnabled;\\r\\n    bool public zroEnabled;\\r\\n\\r\\n    ILayerZeroUltraLightNodeV2 public uln;\\r\\n\\r\\n    event NativeBP(uint bp);\\r\\n    event ZroFee(uint zroFee);\\r\\n    event FeeEnabled(bool feeEnabled);\\r\\n    event ZroEnabled(bool zroEnabled);\\r\\n\\r\\n    constructor(address _ulnv2) {\\r\\n        uln = ILayerZeroUltraLightNodeV2(_ulnv2);\\r\\n    }\\r\\n\\r\\n    function getFees(bool payInZro, uint relayerFee, uint oracleFee) external view override returns (uint) {\\r\\n        if (feeEnabled) {\\r\\n            if (payInZro) {\\r\\n                require(zroEnabled, \\\"LayerZero: ZRO is not enabled\\\");\\r\\n                return zroFee;\\r\\n            } else {\\r\\n                return relayerFee.add(oracleFee).mul(nativeBP).div(10000);\\r\\n            }\\r\\n        }\\r\\n        return 0;\\r\\n    }\\r\\n\\r\\n    function setFeeEnabled(bool _feeEnabled) external onlyOwner {\\r\\n        feeEnabled = _feeEnabled;\\r\\n        emit FeeEnabled(_feeEnabled);\\r\\n    }\\r\\n\\r\\n    function setZroEnabled(bool _zroEnabled) external onlyOwner {\\r\\n        zroEnabled = _zroEnabled;\\r\\n        emit ZroEnabled(_zroEnabled);\\r\\n    }\\r\\n\\r\\n    function setNativeBP(uint _nativeBP) external onlyOwner {\\r\\n        nativeBP = _nativeBP;\\r\\n        emit NativeBP(_nativeBP);\\r\\n    }\\r\\n\\r\\n    function setZroFee(uint _zroFee) external onlyOwner {\\r\\n        zroFee = _zroFee;\\r\\n        emit ZroFee(_zroFee);\\r\\n    }\\r\\n\\r\\n    function withdrawZROFromULN(address _to, uint _amount) external onlyOwner {\\r\\n        uln.withdrawZRO(_to, _amount);\\r\\n    }\\r\\n\\r\\n    function withdrawNativeFromULN(address payable _to, uint _amount) external onlyOwner {\\r\\n        uln.withdrawNative(_to, _amount);\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0xd227ffd8a0e4a2badc3856cfc6591698c6e809353248df1717c8575fc3c37374\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161089338038061089383398101604081905261002f916100b5565b61003833610065565b600380546001600160a01b03909216620100000262010000600160b01b03199092169190911790556100e5565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b6000602082840312156100c757600080fd5b81516001600160a01b03811681146100de57600080fd5b9392505050565b61079f806100f46000396000f3fe608060405234801561001057600080fd5b50600436106100f55760003560e01c80638da5cb5b11610097578063baead4cc11610066578063baead4cc146101e7578063d684b253146101fa578063d935d1231461020d578063f2fde38b1461021f57600080fd5b80638da5cb5b146101a757806396a141a0146101b8578063a771ebc7146101c1578063af406aa5146101de57600080fd5b80636c473aff116100d35780636c473aff14610148578063715018a6146101795780637ba20ccf146101815780638c6163971461019457600080fd5b80630db474fa146100fa5780633c5ac8f71461010f5780635cbbbd7514610122575b600080fd5b61010d610108366004610635565b610232565b005b61010d61011d366004610665565b610282565b610135610130366004610691565b6102fc565b6040519081526020015b60405180910390f35b600354610161906201000090046001600160a01b031681565b6040516001600160a01b03909116815260200161013f565b61010d6103b2565b61010d61018f3660046106c4565b6103c6565b61010d6101a2366004610665565b610403565b6000546001600160a01b0316610161565b61013560015481565b6003546101ce9060ff1681565b604051901515815260200161013f565b61013560025481565b61010d6101f53660046106c4565b61044b565b61010d610208366004610635565b610488565b6003546101ce90610100900460ff1681565b61010d61022d3660046106dd565b6104d9565b61023a610552565b6003805460ff19168215159081179091556040519081527fe97fa32ceb811a18d1b14115b17ae0034db328b2e2ca987d9922cbf47b03fad6906020015b60405180910390a150565b61028a610552565b6003546040516303d8c5ef60e11b81526001600160a01b0384811660048301526024820184905262010000909204909116906307b18bde906044015b600060405180830381600087803b1580156102e057600080fd5b505af11580156102f4573d6000803e3d6000fd5b505050505050565b60035460009060ff16156103a757831561037557600354610100900460ff1661036c5760405162461bcd60e51b815260206004820152601d60248201527f4c617965725a65726f3a205a524f206973206e6f7420656e61626c656400000060448201526064015b60405180910390fd5b506002546103ab565b6103a061271061039a60015461039486886105ac90919063ffffffff16565b906105b8565b906105c4565b90506103ab565b5060005b9392505050565b6103ba610552565b6103c460006105d0565b565b6103ce610552565b60028190556040518181527f804d99c2291bc4a6be11ff016f65cfc644f8d488ef55a5318d0217a1fdc4e9fd90602001610277565b61040b610552565b600354604051638525b71160e01b81526001600160a01b038481166004830152602482018490526201000090920490911690638525b711906044016102c6565b610453610552565b60018190556040518181527ff2a316ed322d32481373e7ed416bc6c1ec2afcfa3bf2f1df9eb4300e1a9620e390602001610277565b610490610552565b600380548215156101000261ff00199091161790556040517f279d3ec34d7b325d10d4b9d6c63464877a6fe6ac3997f7508bdb3b9d2d5050b39061027790831515815260200190565b6104e1610552565b6001600160a01b0381166105465760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610363565b61054f816105d0565b50565b6000546001600160a01b031633146103c45760405162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726044820152606401610363565b60006103ab8284610710565b60006103ab8284610728565b60006103ab8284610747565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b8035801515811461063057600080fd5b919050565b60006020828403121561064757600080fd5b6103ab82610620565b6001600160a01b038116811461054f57600080fd5b6000806040838503121561067857600080fd5b823561068381610650565b946020939093013593505050565b6000806000606084860312156106a657600080fd5b6106af84610620565b95602085013595506040909401359392505050565b6000602082840312156106d657600080fd5b5035919050565b6000602082840312156106ef57600080fd5b81356103ab81610650565b634e487b7160e01b600052601160045260246000fd5b60008219821115610723576107236106fa565b500190565b6000816000190483118215151615610742576107426106fa565b500290565b60008261076457634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220b72a29a917fedaa3d05cdd69034fc7f7584ac913510e0b7fccc863acbcbea21664736f6c634300080c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100f55760003560e01c80638da5cb5b11610097578063baead4cc11610066578063baead4cc146101e7578063d684b253146101fa578063d935d1231461020d578063f2fde38b1461021f57600080fd5b80638da5cb5b146101a757806396a141a0146101b8578063a771ebc7146101c1578063af406aa5146101de57600080fd5b80636c473aff116100d35780636c473aff14610148578063715018a6146101795780637ba20ccf146101815780638c6163971461019457600080fd5b80630db474fa146100fa5780633c5ac8f71461010f5780635cbbbd7514610122575b600080fd5b61010d610108366004610635565b610232565b005b61010d61011d366004610665565b610282565b610135610130366004610691565b6102fc565b6040519081526020015b60405180910390f35b600354610161906201000090046001600160a01b031681565b6040516001600160a01b03909116815260200161013f565b61010d6103b2565b61010d61018f3660046106c4565b6103c6565b61010d6101a2366004610665565b610403565b6000546001600160a01b0316610161565b61013560015481565b6003546101ce9060ff1681565b604051901515815260200161013f565b61013560025481565b61010d6101f53660046106c4565b61044b565b61010d610208366004610635565b610488565b6003546101ce90610100900460ff1681565b61010d61022d3660046106dd565b6104d9565b61023a610552565b6003805460ff19168215159081179091556040519081527fe97fa32ceb811a18d1b14115b17ae0034db328b2e2ca987d9922cbf47b03fad6906020015b60405180910390a150565b61028a610552565b6003546040516303d8c5ef60e11b81526001600160a01b0384811660048301526024820184905262010000909204909116906307b18bde906044015b600060405180830381600087803b1580156102e057600080fd5b505af11580156102f4573d6000803e3d6000fd5b505050505050565b60035460009060ff16156103a757831561037557600354610100900460ff1661036c5760405162461bcd60e51b815260206004820152601d60248201527f4c617965725a65726f3a205a524f206973206e6f7420656e61626c656400000060448201526064015b60405180910390fd5b506002546103ab565b6103a061271061039a60015461039486886105ac90919063ffffffff16565b906105b8565b906105c4565b90506103ab565b5060005b9392505050565b6103ba610552565b6103c460006105d0565b565b6103ce610552565b60028190556040518181527f804d99c2291bc4a6be11ff016f65cfc644f8d488ef55a5318d0217a1fdc4e9fd90602001610277565b61040b610552565b600354604051638525b71160e01b81526001600160a01b038481166004830152602482018490526201000090920490911690638525b711906044016102c6565b610453610552565b60018190556040518181527ff2a316ed322d32481373e7ed416bc6c1ec2afcfa3bf2f1df9eb4300e1a9620e390602001610277565b610490610552565b600380548215156101000261ff00199091161790556040517f279d3ec34d7b325d10d4b9d6c63464877a6fe6ac3997f7508bdb3b9d2d5050b39061027790831515815260200190565b6104e1610552565b6001600160a01b0381166105465760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610363565b61054f816105d0565b50565b6000546001600160a01b031633146103c45760405162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726044820152606401610363565b60006103ab8284610710565b60006103ab8284610728565b60006103ab8284610747565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b8035801515811461063057600080fd5b919050565b60006020828403121561064757600080fd5b6103ab82610620565b6001600160a01b038116811461054f57600080fd5b6000806040838503121561067857600080fd5b823561068381610650565b946020939093013593505050565b6000806000606084860312156106a657600080fd5b6106af84610620565b95602085013595506040909401359392505050565b6000602082840312156106d657600080fd5b5035919050565b6000602082840312156106ef57600080fd5b81356103ab81610650565b634e487b7160e01b600052601160045260246000fd5b60008219821115610723576107236106fa565b500190565b6000816000190483118215151615610742576107426106fa565b500290565b60008261076457634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220b72a29a917fedaa3d05cdd69034fc7f7584ac913510e0b7fccc863acbcbea21664736f6c634300080c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 2624,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 15457,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "nativeBP",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 15459,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "zroFee",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 15461,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "feeEnabled",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_bool"
+      },
+      {
+        "astId": 15463,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "zroEnabled",
+        "offset": 1,
+        "slot": "3",
+        "type": "t_bool"
+      },
+      {
+        "astId": 15466,
+        "contract": "contracts/mContracts/lzContracts/TreasuryV2.sol:TreasuryV2",
+        "label": "uln",
+        "offset": 2,
+        "slot": "3",
+        "type": "t_contract(ILayerZeroUltraLightNodeV2)11601"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_contract(ILayerZeroUltraLightNodeV2)11601": {
+        "encoding": "inplace",
+        "label": "contract ILayerZeroUltraLightNodeV2",
+        "numberOfBytes": "20"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

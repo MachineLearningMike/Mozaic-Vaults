@@ -3,6 +3,7 @@ require("dotenv").config();
 require('hardhat-contract-sizer');
 require("@nomiclabs/hardhat-waffle");
 require(`@nomiclabs/hardhat-etherscan`);
+// require("@nomiclabs/hardhat-ganache");
 require("solidity-coverage");
 require('hardhat-gas-reporter');
 require('hardhat-deploy');
@@ -88,8 +89,39 @@ module.exports = {
       default: 1,
     },
   },
-
+  defaultNetwork: "hardhat",
   networks: {
+    hardhat: {
+        chainId: 31337,
+        from: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+        gas: "auto",
+        gasPrice: "auto",
+        gasMultiplier: 1,
+        mnemonic: "test test test test test test test test test test test junk",
+        initialIndex: 0,
+        count: 20,
+        accountsBalance: "10000000000000000000000",
+        passphrase: "",
+        blockGasLimit: 30000000,
+        hardfork: "merge",
+        throwOnTransactionFailures: true,
+        throwOnCallFailures: true,
+        loggingEnabled: false,
+        allowUnlimitedContractSize: false,
+        allowBlocksWithSameTimestamp:false,
+        forking : {
+            url: "",
+            blockNumber: 0,
+            enabled: false,
+        },
+        mining: {
+            auto: true,
+            interval: [3000, 6000],
+            mempool: {
+                order: "fifo"
+            },          
+        },
+    },
     ethereum: {
       url: "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161", // public infura endpoint
       chainId: 1,

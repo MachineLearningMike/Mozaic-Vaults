@@ -26,7 +26,7 @@ import "./NonceContract.sol";
 
 
 
-contract UltraLightNodeV2_WO_Validation is ILayerZeroMessagingLibraryV2, ILayerZeroUltraLightNodeV2, ReentrancyGuard, Ownable {
+contract UltraLightNodeV2_wo_Validation is ILayerZeroMessagingLibraryV2, ILayerZeroUltraLightNodeV2, ReentrancyGuard, Ownable {
     using SafeERC20 for IERC20;
     using SafeMath for uint;
 
@@ -155,20 +155,25 @@ contract UltraLightNodeV2_WO_Validation is ILayerZeroMessagingLibraryV2, ILayerZ
         uint oracleFee = 0; //_handleOracle(dstChainId, uaConfig, ua);
         uint nativeProtocolFee = _handleProtocolFee(relayerFee, oracleFee, ua, _zroPaymentAddress);
 
-        // total native fee, does not include ZRO protocol fee
-        uint totalNativeFee = relayerFee.add(oracleFee).add(nativeProtocolFee);
+        {
+            // total native fee, does not include ZRO protocol fee
+            uint totalNativeFee = relayerFee.add(oracleFee).add(nativeProtocolFee);
 
-        // assert the user has attached enough native token for this address
-        require(totalNativeFee <= msg.value, "LayerZero: not enough native for fees");
-        // refund if they send too much
-        uint amount = msg.value.sub(totalNativeFee);
-        if (amount > 0) {
-            (bool success, ) = _refundAddress.call{value: amount}("");
-            require(success, "LayerZero: failed to refund");
+            // assert the user has attached enough native token for this address
+            require(totalNativeFee <= msg.value, "LayerZero: not enough native for fees");
+
+            // refund if they send too much
+            uint amount = msg.value.sub(totalNativeFee);
+            if (amount > 0) {
+                (bool success, ) = _refundAddress.call{value: amount}("");
+                require(success, "LayerZero: failed to refund");
+            }
         }
 
+        uint16 mock_srcChainId = uint16(uint160(ua));   // wish for luck and no conflict.
+
         // emit the data packet
-        bytes memory encodedPayload = abi.encodePacked(nonce, localChainId, ua, dstChainId, dstAddress, payload);
+        bytes memory encodedPayload = abi.encodePacked(nonce, mock_srcChainId, ua, dstChainId, dstAddress, payload);
         emit Packet(encodedPayload);
     }
 
