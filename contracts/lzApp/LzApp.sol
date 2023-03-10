@@ -8,6 +8,8 @@ import "../interfaces/ILayerZeroUserApplicationConfig.sol";
 import "../interfaces/ILayerZeroEndpoint.sol";
 import "../util/BytesLib.sol";
 
+import "hardhat/console.sol";
+
 /*
  * a generic LzReceiver implementation
  */
@@ -106,6 +108,7 @@ abstract contract LzApp is Ownable, ILayerZeroReceiver, ILayerZeroUserApplicatio
 
     function setTrustedRemoteAddress(uint16 _remoteChainId, bytes calldata _remoteAddress) external onlyOwner {
         trustedRemoteLookup[_remoteChainId] = abi.encodePacked(_remoteAddress, address(this));
+        console.log(uint(_remoteChainId));
         emit SetTrustedRemoteAddress(_remoteChainId, _remoteAddress);
     }
 

@@ -13,6 +13,8 @@ let endpoint, nonceContract, ultraLightNodeV2_wo_Validation, treasury, exampleOF
 let relayer;
 const vaults = [];
 let owner, alice, bob, carol, dev;
+const nVaults = 5;
+let nMain = 0;
 let tx;
 
 describe("====================== Preface ======================\n".yellow, async function () {
@@ -222,25 +224,50 @@ describe("====================== Stage 2: Mozaic contracts =====================
 
         assert(nMain < nVaults);
 
-        for( i = 0; i < nVaults; i ++) {
+        const Vault = await ethers.getContractFactory("MozaicVault")
+        for (i = 0; i < nVaults; i ++) {
             isMain = false;
             if(i == nMain) { isMain = true; }
-            
-            skip = true;
-            if(i != 0) { skip = false; }
 
-            const vault = await deploy("MozaicVault", {
-                from: deployer,
-                args: [endpoint.address, isMain],
-                // if set it to true, will not attempt to deploy
-                // even if the contract deployed under the same name is different
-                skipIfAlreadyDeployed: false,
-                log: true,
-                waitConfirmations: 3,
-            })
+            vault = await Vault.deploy(endpoint.address, isMain)
             consoleLogWithTab(`MozaicVault ${i} is deployed at ${vault.address}`)
-            vaults.push(vault);
+            vaults.push(vault)
         }
+    });
+});
+
+
+describe("====================== Stage 3: Test LayerZero contracts ======================\n".yellow, async function () {
+    it("Mozaic contracts are deployed.\n".green, async function () {
+        [owner, alice, bob, carol, dev, buyback, liquidity, treasury] = await ethers.getSigners();
+        owner.name = "Owner"; alice.name = "Alice"; bob.name = "Bob"; carol.name = "Carol"; liquidity.name = "Liquidity"; treasury.name = "Treasury";
+    
+        console.log("\tOwner address: ".cyan, owner.address, "Balance: ".cyan, await ethers.provider.getBalance(owner.address)/1e18);
+        console.log("\tAlice address: ".cyan, alice.address, "Balance: ".cyan, await ethers.provider.getBalance(alice.address)/1e18);
+        console.log("\tBob address: ".cyan, bob.address, "Balance: ".cyan, await ethers.provider.getBalance(bob.address)/1e18);
+        console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
+
+        const { deploy } = deployments
+        const { deployer, proxyOwner } = await getNamedAccounts()
+        
+        //========================== Deploy ============================
+
+        // set each contracts source address so it can send to each other
+
+        for (i = 0; i < nVaults; i ++) {
+            srcChainId = parseInt(vaults[nMain].address.toString(16).slice(0, 4))
+            path = ethers.utils.solidityPack(["address", "address"], [vaults[nMain].address, vaults[i].address])
+            await consoleLogWithTab(`0 to ${i}: ${srcChainId}, ${path}`)
+            await vaults[i].setTrustedRemote(srcChainId, path)
+
+            srcChainId = parseInt(vaults[i].address.toString(16).slice(0, 4))
+            path = ethers.utils.solidityPack(["address", "address"], [vaults[i].address, vaults[nMain].address])
+            await consoleLogWithTab(`${i} to 0: ${srcChainId}, ${path}`)
+            await vaults[nMain].setTrustedRemote(srcChainId, path)
+        }
+
+
+
 
     });
 

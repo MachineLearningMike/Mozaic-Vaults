@@ -116,7 +116,7 @@ module.exports = {
         },
         mining: {
             auto: true,
-            interval: [3000, 6000],
+            interval: [1000, 1000],  // random in the interval
             mempool: {
                 order: "fifo"
             },          

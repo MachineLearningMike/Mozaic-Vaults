@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\example\\ExampleOFTUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\example\\ExampleOFTUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "0de8b8791bcb75c259de0f453ba02eaf",
       "sourceName": "contracts/contracts-upgradable/example/ExampleOFTUpgradeable.sol",
@@ -46,7 +46,7 @@
         "ExampleOFTUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\OFT\\OFTUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\OFT\\OFTUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "de432fced3b1616fcd119547d582bf0e",
       "sourceName": "contracts/contracts-upgradable/token/OFT/OFTUpgradeable.sol",
@@ -94,7 +94,7 @@
         "OFTUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\hardhat-deploy\\solc_0.8\\proxy\\Proxied.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\hardhat-deploy\\solc_0.8\\proxy\\Proxied.sol": {
       "lastModificationDate": 1677663158259,
       "contentHash": "79d749c2ff82bb2dd2843e747be43225",
       "sourceName": "hardhat-deploy/solc_0.8/proxy/Proxied.sol",
@@ -136,52 +136,7 @@
         "Proxied"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\OFT\\IOFTUpgradeable.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "31a21d75069cedf7f31be0525259a703",
-      "sourceName": "contracts/contracts-upgradable/token/OFT/IOFTUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./IOFTCoreUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.2"
-      ],
-      "artifacts": [
-        "IOFTUpgradeable"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\OFT\\OFTCoreUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\OFT\\OFTCoreUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "2dc9234de8f7ab31489511308229eb0a",
       "sourceName": "contracts/contracts-upgradable/token/OFT/OFTCoreUpgradeable.sol",
@@ -227,7 +182,52 @@
         "OFTCoreUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\OFT\\IOFTUpgradeable.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "31a21d75069cedf7f31be0525259a703",
+      "sourceName": "contracts/contracts-upgradable/token/OFT/IOFTUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IOFTCoreUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "IOFTUpgradeable"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol": {
       "lastModificationDate": 1677663136759,
       "contentHash": "f6a254bc3e3c9c456a7a630fc4cb8ca4",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
@@ -274,49 +274,7 @@
         "ERC20Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\IERC165Upgradeable.sol": {
-      "lastModificationDate": 1677663136978,
-      "contentHash": "d6ecf203a5e72c845be9bbf2f304a289",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC165Upgradeable"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\IERC20Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\IERC20Upgradeable.sol": {
       "lastModificationDate": 1677663137040,
       "contentHash": "a9ed3c7bc7d9ebb5e34f20829274f088",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
@@ -358,10 +316,10 @@
         "IERC20Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\OFT\\IOFTCoreUpgradeable.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "2c219ed855e3c4d678370703365621fd",
-      "sourceName": "contracts/contracts-upgradable/token/OFT/IOFTCoreUpgradeable.sol",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\IERC165Upgradeable.sol": {
+      "lastModificationDate": 1677663136978,
+      "contentHash": "d6ecf203a5e72c845be9bbf2f304a289",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -392,17 +350,15 @@
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
-        "^0.8.2"
+        "^0.8.0"
       ],
       "artifacts": [
-        "IOFTCoreUpgradeable"
+        "IERC165Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\lzApp\\NonblockingLzAppUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\lzApp\\NonblockingLzAppUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "3408ce97f248a44582ca568c142c2514",
       "sourceName": "contracts/contracts-upgradable/lzApp/NonblockingLzAppUpgradeable.sol",
@@ -446,7 +402,51 @@
         "NonblockingLzAppUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\OFT\\IOFTCoreUpgradeable.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "2c219ed855e3c4d678370703365621fd",
+      "sourceName": "contracts/contracts-upgradable/token/OFT/IOFTCoreUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "IOFTCoreUpgradeable"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol": {
       "lastModificationDate": 1677663136728,
       "contentHash": "5f2d8b81c0ff5bd2047b4846c20b998d",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol",
@@ -491,7 +491,7 @@
         "ERC165Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\lzApp\\LzAppUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\lzApp\\LzAppUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "118f97511a30cfad8c3f95705a30f1ec",
       "sourceName": "contracts/contracts-upgradable/lzApp/LzAppUpgradeable.sol",
@@ -538,7 +538,7 @@
         "LzAppUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroReceiverUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroReceiverUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "e106bf561246be02018f0ab8f7d3567c",
       "sourceName": "contracts/contracts-upgradable/interfaces/ILayerZeroReceiverUpgradeable.sol",
@@ -580,7 +580,7 @@
         "ILayerZeroReceiverUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroUserApplicationConfigUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroUserApplicationConfigUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "af746b5b17e5b6e712966ef5fee0f619",
       "sourceName": "contracts/contracts-upgradable/interfaces/ILayerZeroUserApplicationConfigUpgradeable.sol",
@@ -622,7 +622,7 @@
         "ILayerZeroUserApplicationConfigUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroEndpointUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\interfaces\\ILayerZeroEndpointUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "c63c74be44e0c4d2c6ff22a55bac7613",
       "sourceName": "contracts/contracts-upgradable/interfaces/ILayerZeroEndpointUpgradeable.sol",
@@ -666,7 +666,7 @@
         "ILayerZeroEndpointUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol": {
       "lastModificationDate": 1677663137181,
       "contentHash": "403ce8273abde646bff81558ddf512ad",
       "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
@@ -711,7 +711,7 @@
         "OwnableUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol": {
       "lastModificationDate": 1677663136634,
       "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
@@ -755,7 +755,7 @@
         "ContextUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol": {
       "lastModificationDate": 1677663137134,
       "contentHash": "b98e2f3a856e6e7f2106fb919bacab9e",
       "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
@@ -799,7 +799,7 @@
         "Initializable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\AddressUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\AddressUpgradeable.sol": {
       "lastModificationDate": 1677663136587,
       "contentHash": "d42e87f4fba2b03ab4d3c14cb53d0c51",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
@@ -841,7 +841,7 @@
         "AddressUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\extensions\\IERC20MetadataUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\extensions\\IERC20MetadataUpgradeable.sol": {
       "lastModificationDate": 1677663136994,
       "contentHash": "9efcd5467a7f0bf533910ee8a267adb2",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol",
@@ -885,7 +885,7 @@
         "IERC20MetadataUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\RelayerV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\RelayerV2.sol": {
       "lastModificationDate": 1677923201205,
       "contentHash": "132874314d690debf4d3a5057615f2f9",
       "sourceName": "contracts/mContracts/lzContracts/RelayerV2.sol",
@@ -936,7 +936,7 @@
         "RelayerV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroRelayerV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroRelayerV2.sol": {
       "lastModificationDate": 1677923201200,
       "contentHash": "6538d479543a9834784579430c826ee1",
       "sourceName": "contracts/interfaces/ILayerZeroRelayerV2.sol",
@@ -978,7 +978,7 @@
         "ILayerZeroRelayerV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUltraLightNodeV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroUltraLightNodeV2.sol": {
       "lastModificationDate": 1677923201202,
       "contentHash": "1f720c6880c74a50d760a7afd98f026e",
       "sourceName": "contracts/interfaces/ILayerZeroUltraLightNodeV2.sol",
@@ -1020,7 +1020,7 @@
         "ILayerZeroUltraLightNodeV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
       "lastModificationDate": 1677663136650,
       "contentHash": "92f9448b23a90ea3bb932ee55cc3ccce",
       "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
@@ -1062,49 +1062,7 @@
         "ReentrancyGuard"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1677663136478,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
       "lastModificationDate": 1677663136665,
       "contentHash": "2337f0279507b5edf14a07067adf0d05",
       "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
@@ -1146,7 +1104,49 @@
         "SafeMath"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1677663136478,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
       "lastModificationDate": 1677663136665,
       "contentHash": "3a843b05b85a270e9455e3d2e804e633",
       "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
@@ -1192,7 +1192,7 @@
         "SafeERC20"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
       "lastModificationDate": 1677663135915,
       "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
@@ -1234,7 +1234,7 @@
         "Address"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
       "lastModificationDate": 1677663136072,
       "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
@@ -1276,7 +1276,7 @@
         "IERC20Permit"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
       "lastModificationDate": 1677663136087,
       "contentHash": "9be05ac5a08ad0370e3cc36665ca490c",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
@@ -1325,7 +1325,7 @@
         "ERC1155"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
       "lastModificationDate": 1677663136431,
       "contentHash": "d5a8f6e07ca38ec384856cfe9f08a867",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
@@ -1369,7 +1369,7 @@
         "IERC1155"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
       "lastModificationDate": 1677663136447,
       "contentHash": "9f8822b72fe2702979e40160cb6d9636",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
@@ -1413,7 +1413,7 @@
         "IERC1155Receiver"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1677663136009,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -1455,7 +1455,7 @@
         "Context"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
       "lastModificationDate": 1677663136119,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -1499,7 +1499,7 @@
         "ERC165"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
       "lastModificationDate": 1677663136447,
       "contentHash": "9148c2e10c4efb12c71a7f080da5559b",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
@@ -1543,7 +1543,7 @@
         "IERC1155MetadataURI"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
       "lastModificationDate": 1677663136478,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -1585,7 +1585,7 @@
         "IERC165"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
       "lastModificationDate": 1677663136509,
       "contentHash": "ec99d946db3685a3630554aa6055bd7f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
@@ -1629,7 +1629,7 @@
         "IERC721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
       "lastModificationDate": 1677663136540,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -1673,7 +1673,7 @@
         "IERC721Metadata"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
       "lastModificationDate": 1677663136228,
       "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -1723,7 +1723,7 @@
         "ERC721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
       "lastModificationDate": 1677663136540,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
@@ -1765,7 +1765,7 @@
         "IERC721Receiver"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
       "lastModificationDate": 1677663136681,
       "contentHash": "cf46906c4035f51639a22265066a9e78",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -1807,7 +1807,7 @@
         "Strings"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\ONFT721Core.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\ONFT721Core.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "a3a967e9766005b837a85a0d1d6ff763",
       "sourceName": "contracts/token/onft/ONFT721Core.sol",
@@ -1853,7 +1853,7 @@
         "ONFT721Core"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\lzApp\\NonblockingLzApp.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\lzApp\\NonblockingLzApp.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "d5e83ff9d9128114c107acf42c8d32f7",
       "sourceName": "contracts/lzApp/NonblockingLzApp.sol",
@@ -1898,7 +1898,7 @@
         "NonblockingLzApp"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\IONFT721Core.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\IONFT721Core.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "38c8798755918a091e96fdaf8fa6f910",
       "sourceName": "contracts/token/onft/IONFT721Core.sol",
@@ -1942,7 +1942,7 @@
         "IONFT721Core"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\ExcessivelySafeCall.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\ExcessivelySafeCall.sol": {
       "lastModificationDate": 1677662915816,
       "contentHash": "0914409005a502d4825cd394841c20b2",
       "sourceName": "contracts/util/ExcessivelySafeCall.sol",
@@ -1984,9 +1984,9 @@
         "ExcessivelySafeCall"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\lzApp\\LzApp.sol": {
-      "lastModificationDate": 1677774374325,
-      "contentHash": "db3cd8fcc91ea57fc62c07e2ead01d9b",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\lzApp\\LzApp.sol": {
+      "lastModificationDate": 1678183676905,
+      "contentHash": "fc8b38371c74f005f8bea241c1a96d95",
       "sourceName": "contracts/lzApp/LzApp.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -2023,7 +2023,8 @@
         "../interfaces/ILayerZeroReceiver.sol",
         "../interfaces/ILayerZeroUserApplicationConfig.sol",
         "../interfaces/ILayerZeroEndpoint.sol",
-        "../util/BytesLib.sol"
+        "../util/BytesLib.sol",
+        "hardhat/console.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
@@ -2032,7 +2033,7 @@
         "LzApp"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroReceiver.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroReceiver.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "b0a046006782f1ba2f45e0f040ce420b",
       "sourceName": "contracts/interfaces/ILayerZeroReceiver.sol",
@@ -2074,7 +2075,7 @@
         "ILayerZeroReceiver"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUserApplicationConfig.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroUserApplicationConfig.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "0383d9b2c94df4c05031a67bec051e79",
       "sourceName": "contracts/interfaces/ILayerZeroUserApplicationConfig.sol",
@@ -2116,7 +2117,7 @@
         "ILayerZeroUserApplicationConfig"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroEndpoint.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroEndpoint.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "78613cabc539acec8eed43d86ddd5b6b",
       "sourceName": "contracts/interfaces/ILayerZeroEndpoint.sol",
@@ -2160,7 +2161,7 @@
         "ILayerZeroEndpoint"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\BytesLib.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\BytesLib.sol": {
       "lastModificationDate": 1677662915816,
       "contentHash": "0bd41d48226276716c83bc12ce07b552",
       "sourceName": "contracts/util/BytesLib.sol",
@@ -2202,7 +2203,49 @@
         "BytesLib"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1677948794151,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
       "lastModificationDate": 1677663136650,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -2246,7 +2289,7 @@
         "Ownable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\IONFT721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\IONFT721.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "5d6e690b7bdfbbdff981a1854465835d",
       "sourceName": "contracts/token/onft/IONFT721.sol",
@@ -2291,7 +2334,7 @@
         "IONFT721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\ONFT721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\ONFT721.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "c90f53f8bf903b3a06abce6aced7129c",
       "sourceName": "contracts/token/onft/ONFT721.sol",
@@ -2337,7 +2380,7 @@
         "ONFT721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\extension\\UniversalONFT721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\extension\\UniversalONFT721.sol": {
       "lastModificationDate": 1677662915816,
       "contentHash": "796d2be801e29958c85e17b0e5d4062c",
       "sourceName": "contracts/token/onft/extension/UniversalONFT721.sol",
@@ -2381,7 +2424,7 @@
         "UniversalONFT721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\ExampleUniversalONFT721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\ExampleUniversalONFT721.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "fd816ce37fd87a1dda40d4a33628fca0",
       "sourceName": "contracts/examples/ExampleUniversalONFT721.sol",
@@ -2425,7 +2468,7 @@
         "ExampleUniversalONFT721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\ONFT721Mock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\ONFT721Mock.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "50b8cc06ddb8ff49d0fb9f3b22130aee",
       "sourceName": "contracts/mocks/ONFT721Mock.sol",
@@ -2469,7 +2512,7 @@
         "ONFT721Mock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\ONFT1155Core.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\ONFT1155Core.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "bb4d2ba8b5ee3f027e1f2072f03a1dbf",
       "sourceName": "contracts/token/onft/ONFT1155Core.sol",
@@ -2515,7 +2558,7 @@
         "ONFT1155Core"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\IONFT1155Core.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\IONFT1155Core.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "8e1cbbf27f93ed0be7d9c24428fd53db",
       "sourceName": "contracts/token/onft/IONFT1155Core.sol",
@@ -2559,7 +2602,7 @@
         "IONFT1155Core"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\IONFT1155.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\IONFT1155.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "e230fc2b6a58a66da10ea60f57ebdf49",
       "sourceName": "contracts/token/onft/IONFT1155.sol",
@@ -2604,7 +2647,7 @@
         "IONFT1155"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\ONFT1155.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\ONFT1155.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "7ec021c3192f61165d597684fc118ca1",
       "sourceName": "contracts/token/onft/ONFT1155.sol",
@@ -2650,7 +2693,7 @@
         "ONFT1155"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\extension\\ProxyONFT1155.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\extension\\ProxyONFT1155.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "cad1d402c8a60a2a275282ebe1e1f4d2",
       "sourceName": "contracts/token/onft/extension/ProxyONFT1155.sol",
@@ -2697,7 +2740,7 @@
         "ProxyONFT1155"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Checker.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Checker.sol": {
       "lastModificationDate": 1677663136134,
       "contentHash": "5a3534b728da5f342a0e8855476dee85",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
@@ -2741,7 +2784,7 @@
         "ERC165Checker"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\onft\\extension\\ProxyONFT721.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\onft\\extension\\ProxyONFT721.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "6f7a0e65bbdacf569973a44d9d0b4414",
       "sourceName": "contracts/token/onft/extension/ProxyONFT721.sol",
@@ -2788,7 +2831,7 @@
         "ProxyONFT721"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\OFTCoreV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\OFTCoreV2.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "bc1646bf5e252d11c30717b817874756",
       "sourceName": "contracts/token/oft/v2/OFTCoreV2.sol",
@@ -2835,49 +2878,7 @@
         "OFTCoreV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\IOFTReceiverV2.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "4df0d32faf49ada224e7f75dfd44a28b",
-      "sourceName": "contracts/token/oft/v2/IOFTReceiverV2.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IOFTReceiverV2"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\ICommonOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\ICommonOFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "fd5708bedac6156663027ca8c03a3e84",
       "sourceName": "contracts/token/oft/v2/ICommonOFT.sol",
@@ -2921,7 +2922,97 @@
         "ICommonOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\IOFTV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\IOFTReceiverV2.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "4df0d32faf49ada224e7f75dfd44a28b",
+      "sourceName": "contracts/token/oft/v2/IOFTReceiverV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IOFTReceiverV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\OFTStakingMockV2.sol": {
+      "lastModificationDate": 1677662915754,
+      "contentHash": "a87b14cc1f61d55bc898c1568b920a62",
+      "sourceName": "contracts/mocks/OFTStakingMockV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "../token/oft/v2/IOFTV2.sol",
+        "../token/oft/v2/IOFTReceiverV2.sol",
+        "../util/BytesLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OFTStakingMockV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\IOFTV2.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "53c5923eca4d6f2a2c51a2acb32c76ef",
       "sourceName": "contracts/token/oft/v2/IOFTV2.sol",
@@ -2965,10 +3056,10 @@
         "IOFTV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\BaseOFTV2.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "1c34431a242b2dc0bc372f3faf7ea25f",
-      "sourceName": "contracts/token/oft/v2/BaseOFTV2.sol",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1677663136494,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -3000,108 +3091,16 @@
         }
       },
       "imports": [
-        "./OFTCoreV2.sol",
-        "./IOFTV2.sol",
-        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+        "../IERC20.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "BaseOFTV2"
+        "IERC20Metadata"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\ProxyOFTV2.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "5e9834413c992fa8218d1e6535865209",
-      "sourceName": "contracts/token/oft/v2/ProxyOFTV2.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./BaseOFTV2.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ProxyOFTV2"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\OFTV2.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "f23eb49e194d260fa6fbe79c776e0cef",
-      "sourceName": "contracts/token/oft/v2/OFTV2.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "./BaseOFTV2.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "OFTV2"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
       "lastModificationDate": 1677663136150,
       "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
@@ -3147,51 +3146,7 @@
         "ERC20"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1677663136494,
-      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Metadata"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Capped.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Capped.sol": {
       "lastModificationDate": 1677663136181,
       "contentHash": "da89e343119284763a5a135243cdb338",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol",
@@ -3235,7 +3190,7 @@
         "ERC20Capped"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\extension\\GlobalCappedOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\extension\\GlobalCappedOFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "d062e69880a78db80de6c1835b090ec4",
       "sourceName": "contracts/token/oft/extension/GlobalCappedOFT.sol",
@@ -3280,7 +3235,7 @@
         "GlobalCappedOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\extension\\BasedOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\extension\\BasedOFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "f582b96700d04299cd7d5e509fe9d84a",
       "sourceName": "contracts/token/oft/extension/BasedOFT.sol",
@@ -3324,7 +3279,7 @@
         "BasedOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\OFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\OFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "661ef4c3ca138024fce12b1b8c89ecbe",
       "sourceName": "contracts/token/oft/OFT.sol",
@@ -3371,7 +3326,7 @@
         "OFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\IOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\IOFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "1d1bf4536f508c086e470d3c1e36fe1c",
       "sourceName": "contracts/token/oft/IOFT.sol",
@@ -3416,7 +3371,7 @@
         "IOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\OFTCore.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\OFTCore.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "723cd73897befbbbc2d21d7cd8f91f12",
       "sourceName": "contracts/token/oft/OFTCore.sol",
@@ -3462,7 +3417,7 @@
         "OFTCore"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\IOFTCore.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\IOFTCore.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "64ba762682068f9a9210e72db8606a01",
       "sourceName": "contracts/token/oft/IOFTCore.sol",
@@ -3506,7 +3461,1169 @@
         "IOFTCore"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\StargateComposed.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\IComposableOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "761f545ee4eca06640919d7112190477",
+      "sourceName": "contracts/token/oft/composable/IComposableOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IComposableOFTCore.sol",
+        "../IOFT.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IComposableOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\IComposableOFTCore.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "7ab76e0beacdbcad42fd6cadb0f2e62e",
+      "sourceName": "contracts/token/oft/composable/IComposableOFTCore.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IOFTCore.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IComposableOFTCore"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\ComposableOFTCore.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "6e4308f9fe01c7d9437b7a934a9a26e1",
+      "sourceName": "contracts/token/oft/composable/ComposableOFTCore.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../OFTCore.sol",
+        "./IOFTReceiver.sol",
+        "./IComposableOFTCore.sol",
+        "../../../util/ExcessivelySafeCall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ComposableOFTCore"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\IOFTReceiver.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "2202b51490be91b57e955290d635ee09",
+      "sourceName": "contracts/token/oft/composable/IOFTReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IOFTReceiver"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\ComposableProxyOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "22d15bc0f13b688edd830cb710bf3f37",
+      "sourceName": "contracts/token/oft/composable/ComposableProxyOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComposableOFTCore.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ComposableProxyOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\OFTStakingMock.sol": {
+      "lastModificationDate": 1677662915754,
+      "contentHash": "a6b2058504156bd0000c17a47a96de8e",
+      "sourceName": "contracts/mocks/OFTStakingMock.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "../token/oft/composable/IOFTReceiver.sol",
+        "../token/oft/composable/IComposableOFTCore.sol",
+        "../util/BytesLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OFTStakingMock"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts\\security\\Pausable.sol": {
+      "lastModificationDate": 1677663136650,
+      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
+      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\extension\\PausableOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "71d1b11133ff9fb8a5a01f1717328fb4",
+      "sourceName": "contracts/token/oft/extension/PausableOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../OFT.sol",
+        "@openzeppelin/contracts/security/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PausableOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\PingPong.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "c115300e6a673a094e968f2b9edb5cb8",
+      "sourceName": "contracts/examples/PingPong.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/Pausable.sol",
+        "../lzApp/NonblockingLzApp.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PingPong"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\fee\\Fee.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "ddb4205af49168f4c00cc93e54a17a7f",
+      "sourceName": "contracts/token/oft/v2/fee/Fee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Fee"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\fee\\BaseOFTWithFee.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "06f26d3052765cbaed6518dcdd498560",
+      "sourceName": "contracts/token/oft/v2/fee/BaseOFTWithFee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../OFTCoreV2.sol",
+        "./IOFTWithFee.sol",
+        "./Fee.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BaseOFTWithFee"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\fee\\IOFTWithFee.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "faad6024507951b9426ce8e8a878b3f9",
+      "sourceName": "contracts/token/oft/v2/fee/IOFTWithFee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ICommonOFT.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IOFTWithFee"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\fee\\ProxyOFTWithFee.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "a132344b58a277d1e39c2c20aaf647ef",
+      "sourceName": "contracts/token/oft/v2/fee/ProxyOFTWithFee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BaseOFTWithFee.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProxyOFTWithFee"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\fee\\OFTWithFee.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "8d2c60638919fdcdbc55038783ddc000",
+      "sourceName": "contracts/token/oft/v2/fee/OFTWithFee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "./BaseOFTWithFee.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OFTWithFee"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\BaseOFTV2.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "1c34431a242b2dc0bc372f3faf7ea25f",
+      "sourceName": "contracts/token/oft/v2/BaseOFTV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./OFTCoreV2.sol",
+        "./IOFTV2.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BaseOFTV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\ProxyOFTV2.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "5e9834413c992fa8218d1e6535865209",
+      "sourceName": "contracts/token/oft/v2/ProxyOFTV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BaseOFTV2.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProxyOFTV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\v2\\OFTV2.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "f23eb49e194d260fa6fbe79c776e0cef",
+      "sourceName": "contracts/token/oft/v2/OFTV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "./BaseOFTV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OFTV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\ExampleOFTV2.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "ee904dae9cdd41725a4c3a42f85f6608",
+      "sourceName": "contracts/examples/ExampleOFTV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/oft/v2/OFTV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ExampleOFTV2"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\LayerZeroOracleMock.sol": {
+      "lastModificationDate": 1677939024742,
+      "contentHash": "d68b025efc19d17fbd4a9737e27d8323",
+      "sourceName": "contracts/mocks/LayerZeroOracleMock.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../interfaces/ILayerZeroOracle.sol",
+        "../interfaces/ILayerZeroUltraLightNodeV1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LayerZeroOracleMock"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroOracle.sol": {
+      "lastModificationDate": 1677923201189,
+      "contentHash": "3dff07e3da825ad8987cdb23daa63776",
+      "sourceName": "contracts/interfaces/ILayerZeroOracle.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "ILayerZeroOracle"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroUltraLightNodeV1.sol": {
+      "lastModificationDate": 1677923201201,
+      "contentHash": "28bc6798abecd5b900d94a0fa4cf8f5c",
+      "sourceName": "contracts/interfaces/ILayerZeroUltraLightNodeV1.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "ILayerZeroUltraLightNodeV1"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\extension\\NativeOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "629a3848c258a77ac7cfad30810f726b",
+      "sourceName": "contracts/token/oft/extension/NativeOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "../OFT.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "NativeOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargateWidget.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "36dffd84a8c6218ce4d55d281586dff1",
+      "sourceName": "contracts/interfaces/IStargateWidget.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IStargateRouter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargateWidget"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargateRouter.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "3eaf213939bdfdb2a28a82f843f0cc7e",
+      "sourceName": "contracts/interfaces/IStargateRouter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargateRouter"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\stargate\\StargateSwap.sol": {
+      "lastModificationDate": 1677662915754,
+      "contentHash": "8e67f5bc5ad56d8823d7d89f811ff7f5",
+      "sourceName": "contracts/stargate/StargateSwap.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../interfaces/IStargateRouter.sol",
+        "../interfaces/IStargateReceiver.sol",
+        "../interfaces/IStargateWidget.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "StargateSwap"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargateReceiver.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "9070dae26ff0143a1e0a6e51fc4db60d",
+      "sourceName": "contracts/interfaces/IStargateReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargateReceiver"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\StargateComposed.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "d631ae29be481e2e5e2173178fcb0883",
       "sourceName": "contracts/StargateComposed.sol",
@@ -3554,91 +4671,7 @@
         "StargateComposed"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargateRouter.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "3eaf213939bdfdb2a28a82f843f0cc7e",
-      "sourceName": "contracts/interfaces/IStargateRouter.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargateRouter"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargateReceiver.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "9070dae26ff0143a1e0a6e51fc4db60d",
-      "sourceName": "contracts/interfaces/IStargateReceiver.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargateReceiver"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
       "lastModificationDate": 1677663138869,
       "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
@@ -3682,7 +4715,7 @@
         "IUniswapV2Router02"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
       "lastModificationDate": 1677663138869,
       "contentHash": "95d8729b2c698dc663322167b3c085fe",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
@@ -3724,7 +4757,7 @@
         "IUniswapV2Router01"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\UltraLightNodeV2_WO_Validation.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\UltraLightNodeV2_WO_Validation.sol": {
       "lastModificationDate": 1678121753629,
       "contentHash": "87df004e3796d7901e17af9e40d4e50b",
       "sourceName": "contracts/mContracts/lzContracts/UltraLightNodeV2_WO_Validation.sol",
@@ -3779,7 +4812,7 @@
         "UltraLightNodeV2_wo_Validation"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroTreasury.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroTreasury.sol": {
       "lastModificationDate": 1677923201201,
       "contentHash": "c6c08eaada3bae803c80908509b79b7b",
       "sourceName": "contracts/interfaces/ILayerZeroTreasury.sol",
@@ -3821,7 +4854,7 @@
         "ILayerZeroTreasury"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroMessagingLibraryV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroMessagingLibraryV2.sol": {
       "lastModificationDate": 1677923201189,
       "contentHash": "769eae2231dc2880fd88ddeb41418868",
       "sourceName": "contracts/interfaces/ILayerZeroMessagingLibraryV2.sol",
@@ -3866,7 +4899,7 @@
         "ILayerZeroMessagingLibraryV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\NonceContract.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\NonceContract.sol": {
       "lastModificationDate": 1677923201204,
       "contentHash": "e53846a10fc87050a3bef0874c58d935",
       "sourceName": "contracts/mContracts/lzContracts/NonceContract.sol",
@@ -3910,7 +4943,7 @@
         "NonceContract"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroMessagingLibrary.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroMessagingLibrary.sol": {
       "lastModificationDate": 1677923201188,
       "contentHash": "6021325ba667e7dd7f0b75daa5f88821",
       "sourceName": "contracts/interfaces/ILayerZeroMessagingLibrary.sol",
@@ -3954,10 +4987,10 @@
         "ILayerZeroMessagingLibrary"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts\\security\\Pausable.sol": {
-      "lastModificationDate": 1677663136650,
-      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
-      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\LZEndpointMock.sol": {
+      "lastModificationDate": 1677662915754,
+      "contentHash": "6ee37fc08b3c9b8d89704387346d5680",
+      "sourceName": "contracts/mocks/LZEndpointMock.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -3989,64 +5022,21 @@
         }
       },
       "imports": [
-        "../utils/Context.sol"
+        "../interfaces/ILayerZeroReceiver.sol",
+        "../interfaces/ILayerZeroEndpoint.sol",
+        "../libraries/LzLib.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "Pausable"
+        "LZEndpointMock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\extension\\PausableOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "71d1b11133ff9fb8a5a01f1717328fb4",
-      "sourceName": "contracts/token/oft/extension/PausableOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../OFT.sol",
-        "@openzeppelin/contracts/security/Pausable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "PausableOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\PingPong.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\libraries\\LzLib.sol": {
       "lastModificationDate": 1677662915738,
-      "contentHash": "c115300e6a673a094e968f2b9edb5cb8",
-      "sourceName": "contracts/examples/PingPong.sol",
+      "contentHash": "011b7e357bfc260f79b5fa6d89990934",
+      "sourceName": "contracts/libraries/LzLib.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -4077,21 +5067,18 @@
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts/security/Pausable.sol",
-        "../lzApp/NonblockingLzApp.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        ">=0.6.0"
       ],
       "artifacts": [
-        "PingPong"
+        "LzLib"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\fee\\Fee.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "ddb4205af49168f4c00cc93e54a17a7f",
-      "sourceName": "contracts/token/oft/v2/fee/Fee.sol",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\Endpoint.sol": {
+      "lastModificationDate": 1677923201204,
+      "contentHash": "29f1123db346635af165c98444dd8dd5",
+      "sourceName": "contracts/mContracts/lzContracts/Endpoint.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -4123,19 +5110,22 @@
         }
       },
       "imports": [
+        "../../interfaces/ILayerZeroReceiver.sol",
+        "../../interfaces/ILayerZeroEndpoint.sol",
+        "../../interfaces/ILayerZeroMessagingLibrary.sol",
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "Fee"
+        "Endpoint"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\fee\\BaseOFTWithFee.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "06f26d3052765cbaed6518dcdd498560",
-      "sourceName": "contracts/token/oft/v2/fee/BaseOFTWithFee.sol",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroEndpoint copy.sol": {
+      "lastModificationDate": 1677923201188,
+      "contentHash": "31710c059b4c5598ba951f039398e547",
+      "sourceName": "contracts/interfaces/ILayerZeroEndpoint copy.sol",
       "solcConfig": {
         "version": "0.8.12",
         "settings": {
@@ -4167,549 +5157,16 @@
         }
       },
       "imports": [
-        "../OFTCoreV2.sol",
-        "./IOFTWithFee.sol",
-        "./Fee.sol",
-        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "BaseOFTWithFee"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\fee\\IOFTWithFee.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "faad6024507951b9426ce8e8a878b3f9",
-      "sourceName": "contracts/token/oft/v2/fee/IOFTWithFee.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../ICommonOFT.sol"
+        "./ILayerZeroUserApplicationConfig.sol"
       ],
       "versionPragmas": [
         ">=0.5.0"
       ],
       "artifacts": [
-        "IOFTWithFee"
+        "ILayerZeroEndpoint"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\fee\\ProxyOFTWithFee.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "a132344b58a277d1e39c2c20aaf647ef",
-      "sourceName": "contracts/token/oft/v2/fee/ProxyOFTWithFee.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./BaseOFTWithFee.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ProxyOFTWithFee"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\v2\\fee\\OFTWithFee.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "8d2c60638919fdcdbc55038783ddc000",
-      "sourceName": "contracts/token/oft/v2/fee/OFTWithFee.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "./BaseOFTWithFee.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "OFTWithFee"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroOracleMock.sol": {
-      "lastModificationDate": 1677939024742,
-      "contentHash": "d68b025efc19d17fbd4a9737e27d8323",
-      "sourceName": "contracts/mocks/LayerZeroOracleMock.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "../interfaces/ILayerZeroOracle.sol",
-        "../interfaces/ILayerZeroUltraLightNodeV1.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "LayerZeroOracleMock"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroOracle.sol": {
-      "lastModificationDate": 1677923201189,
-      "contentHash": "3dff07e3da825ad8987cdb23daa63776",
-      "sourceName": "contracts/interfaces/ILayerZeroOracle.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.0"
-      ],
-      "artifacts": [
-        "ILayerZeroOracle"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUltraLightNodeV1.sol": {
-      "lastModificationDate": 1677923201201,
-      "contentHash": "28bc6798abecd5b900d94a0fa4cf8f5c",
-      "sourceName": "contracts/interfaces/ILayerZeroUltraLightNodeV1.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.0"
-      ],
-      "artifacts": [
-        "ILayerZeroUltraLightNodeV1"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\extension\\NativeOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "629a3848c258a77ac7cfad30810f726b",
-      "sourceName": "contracts/token/oft/extension/NativeOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
-        "../OFT.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "NativeOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargateWidget.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "36dffd84a8c6218ce4d55d281586dff1",
-      "sourceName": "contracts/interfaces/IStargateWidget.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../interfaces/IStargateRouter.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargateWidget"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\stargate\\StargateSwap.sol": {
-      "lastModificationDate": 1677662915754,
-      "contentHash": "8e67f5bc5ad56d8823d7d89f811ff7f5",
-      "sourceName": "contracts/stargate/StargateSwap.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "../interfaces/IStargateRouter.sol",
-        "../interfaces/IStargateReceiver.sol",
-        "../interfaces/IStargateWidget.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "StargateSwap"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargateFactory.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "1cc52076c792f6fcf7f705aad58f39ee",
-      "sourceName": "contracts/interfaces/IStargateFactory.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./IStargatePool.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargateFactory"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargatePool.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "639065c6d2de41a6e3edb7da4e7d0c04",
-      "sourceName": "contracts/interfaces/IStargatePool.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargatePool"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\IStargateRouterETH.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "5c7701c9f69257ed086065ef2f439f29",
-      "sourceName": "contracts/interfaces/IStargateRouterETH.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "IStargateRouterETH"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroOracleBadMock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\LayerZeroOracleBadMock.sol": {
       "lastModificationDate": 1677939024742,
       "contentHash": "a0f583e81f769d380cc4ecafa7f6ad76",
       "sourceName": "contracts/mocks/LayerZeroOracleBadMock.sol",
@@ -4757,683 +5214,7 @@
         "LayerZeroOracleBadMock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LZEndpointMock.sol": {
-      "lastModificationDate": 1677662915754,
-      "contentHash": "6ee37fc08b3c9b8d89704387346d5680",
-      "sourceName": "contracts/mocks/LZEndpointMock.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../interfaces/ILayerZeroReceiver.sol",
-        "../interfaces/ILayerZeroEndpoint.sol",
-        "../libraries/LzLib.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "LZEndpointMock"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\libraries\\LzLib.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "011b7e357bfc260f79b5fa6d89990934",
-      "sourceName": "contracts/libraries/LzLib.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0"
-      ],
-      "artifacts": [
-        "LzLib"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\Endpoint.sol": {
-      "lastModificationDate": 1677923201204,
-      "contentHash": "29f1123db346635af165c98444dd8dd5",
-      "sourceName": "contracts/mContracts/lzContracts/Endpoint.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../../interfaces/ILayerZeroReceiver.sol",
-        "../../interfaces/ILayerZeroEndpoint.sol",
-        "../../interfaces/ILayerZeroMessagingLibrary.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Endpoint"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\OFTStakingMockV2.sol": {
-      "lastModificationDate": 1677662915754,
-      "contentHash": "a87b14cc1f61d55bc898c1568b920a62",
-      "sourceName": "contracts/mocks/OFTStakingMockV2.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "../token/oft/v2/IOFTV2.sol",
-        "../token/oft/v2/IOFTReceiverV2.sol",
-        "../util/BytesLib.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "OFTStakingMockV2"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\OFTStakingMock.sol": {
-      "lastModificationDate": 1677662915754,
-      "contentHash": "a6b2058504156bd0000c17a47a96de8e",
-      "sourceName": "contracts/mocks/OFTStakingMock.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "../token/oft/composable/IOFTReceiver.sol",
-        "../token/oft/composable/IComposableOFTCore.sol",
-        "../util/BytesLib.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "OFTStakingMock"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\IOFTReceiver.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "2202b51490be91b57e955290d635ee09",
-      "sourceName": "contracts/token/oft/composable/IOFTReceiver.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IOFTReceiver"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\IComposableOFTCore.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "7ab76e0beacdbcad42fd6cadb0f2e62e",
-      "sourceName": "contracts/token/oft/composable/IComposableOFTCore.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../IOFTCore.sol"
-      ],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IComposableOFTCore"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\IComposableOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "761f545ee4eca06640919d7112190477",
-      "sourceName": "contracts/token/oft/composable/IComposableOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./IComposableOFTCore.sol",
-        "../IOFT.sol"
-      ],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IComposableOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\ComposableOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "7318d39caaa3bc146d49e4980d092504",
-      "sourceName": "contracts/token/oft/composable/ComposableOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "./IComposableOFT.sol",
-        "./ComposableOFTCore.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ComposableOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\ComposableOFTCore.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "6e4308f9fe01c7d9437b7a934a9a26e1",
-      "sourceName": "contracts/token/oft/composable/ComposableOFTCore.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../OFTCore.sol",
-        "./IOFTReceiver.sol",
-        "./IComposableOFTCore.sol",
-        "../../../util/ExcessivelySafeCall.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ComposableOFTCore"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\ComposableProxyOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "22d15bc0f13b688edd830cb710bf3f37",
-      "sourceName": "contracts/token/oft/composable/ComposableProxyOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./ComposableOFTCore.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ComposableProxyOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\composable\\ComposableBasedOFT.sol": {
-      "lastModificationDate": 1677662915800,
-      "contentHash": "57639e26de55395c9a8d0aa594adbfa6",
-      "sourceName": "contracts/token/oft/composable/ComposableBasedOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./ComposableOFT.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ComposableBasedOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicLP.sol": {
-      "lastModificationDate": 1678123074657,
-      "contentHash": "e3808ec3ea983f32083bd643fe798ece",
-      "sourceName": "contracts/mContracts/MozaicLP.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../token/oft/composable/ComposableOFT.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "MozaicLP"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\ExampleComposableOFT.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "9bfb2c08705aeaaf569a7de58be7f3e6",
-      "sourceName": "contracts/examples/ExampleComposableOFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../token/oft/composable/ComposableOFT.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ExampleComposableOFT"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroEndpoint copy.sol": {
-      "lastModificationDate": 1677923201188,
-      "contentHash": "31710c059b4c5598ba951f039398e547",
-      "sourceName": "contracts/interfaces/ILayerZeroEndpoint copy.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "./ILayerZeroUserApplicationConfig.sol"
-      ],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "ILayerZeroEndpoint"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\Relayer.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\Relayer.sol": {
       "lastModificationDate": 1677923201205,
       "contentHash": "1353c8c2f2ddc47041b10ea5da9ef408",
       "sourceName": "contracts/mContracts/lzContracts/Relayer.sol",
@@ -5486,7 +5267,7 @@
         "Relayer"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroRelayer.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroRelayer.sol": {
       "lastModificationDate": 1677923201191,
       "contentHash": "cb49896b47963abe0457176237a83746",
       "sourceName": "contracts/interfaces/ILayerZeroRelayer.sol",
@@ -5528,7 +5309,7 @@
         "ILayerZeroRelayer"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol": {
       "lastModificationDate": 1677663136837,
       "contentHash": "95ce4acb1c983b71ed51c0ebea8efd04",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol",
@@ -5579,7 +5360,7 @@
         "ERC721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\IERC721Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\IERC721Upgradeable.sol": {
       "lastModificationDate": 1677663137103,
       "contentHash": "59feb5948371a5644b37b0ea697968a2",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol",
@@ -5623,7 +5404,7 @@
         "IERC721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\StringsUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\StringsUpgradeable.sol": {
       "lastModificationDate": 1677663137290,
       "contentHash": "b9d00086379b2524eb287c850a1b2e54",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
@@ -5665,7 +5446,7 @@
         "StringsUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\IERC721ReceiverUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\IERC721ReceiverUpgradeable.sol": {
       "lastModificationDate": 1677663137087,
       "contentHash": "ba28cf60b52b00d2b3a190bcdf0952bd",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol",
@@ -5707,7 +5488,7 @@
         "IERC721ReceiverUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\extensions\\IERC721MetadataUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\extensions\\IERC721MetadataUpgradeable.sol": {
       "lastModificationDate": 1677663137087,
       "contentHash": "76212ca0265501d1eb3dd1175e6afca4",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol",
@@ -5751,7 +5532,7 @@
         "IERC721MetadataUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\ONFT721\\ONFT721CoreUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\ONFT721\\ONFT721CoreUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "4c878ea0d88777f814b37b8068bb081a",
       "sourceName": "contracts/contracts-upgradable/token/ONFT721/ONFT721CoreUpgradeable.sol",
@@ -5798,7 +5579,7 @@
         "ONFT721CoreUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\ONFT721\\IONFT721CoreUpgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\ONFT721\\IONFT721CoreUpgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "36f1584f51623f79fba54deed1f33277",
       "sourceName": "contracts/contracts-upgradable/token/ONFT721/IONFT721CoreUpgradeable.sol",
@@ -5842,7 +5623,7 @@
         "IONFT721CoreUpgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\ONFT721\\ONFT721Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\ONFT721\\ONFT721Upgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "793795d3b99ac41083275162b5717613",
       "sourceName": "contracts/contracts-upgradable/token/ONFT721/ONFT721Upgradeable.sol",
@@ -5890,7 +5671,7 @@
         "ONFT721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\token\\ONFT721\\IONFT721Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\token\\ONFT721\\IONFT721Upgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "84084eddfc9ce17bd77528ca69d4150e",
       "sourceName": "contracts/contracts-upgradable/token/ONFT721/IONFT721Upgradeable.sol",
@@ -5935,7 +5716,7 @@
         "IONFT721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\contracts-upgradable\\example\\ExampleONFT721Upgradeable.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\contracts-upgradable\\example\\ExampleONFT721Upgradeable.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "a801f65a18651c373242cda1e823e223",
       "sourceName": "contracts/contracts-upgradable/example/ExampleONFT721Upgradeable.sol",
@@ -5980,7 +5761,7 @@
         "ExampleONFT721Upgradeable"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\lzContracts\\TreasuryV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\lzContracts\\TreasuryV2.sol": {
       "lastModificationDate": 1677940391185,
       "contentHash": "83835c716b726fb8a7c9dac1c91dde4d",
       "sourceName": "contracts/mContracts/lzContracts/TreasuryV2.sol",
@@ -6027,7 +5808,313 @@
         "TreasuryV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\token\\oft\\extension\\ProxyOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargateFactory.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "1cc52076c792f6fcf7f705aad58f39ee",
+      "sourceName": "contracts/interfaces/IStargateFactory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IStargatePool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargateFactory"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargatePool.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "639065c6d2de41a6e3edb7da4e7d0c04",
+      "sourceName": "contracts/interfaces/IStargatePool.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargatePool"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\IStargateRouterETH.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "5c7701c9f69257ed086065ef2f439f29",
+      "sourceName": "contracts/interfaces/IStargateRouterETH.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IStargateRouterETH"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\ComposableOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "7318d39caaa3bc146d49e4980d092504",
+      "sourceName": "contracts/token/oft/composable/ComposableOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "./IComposableOFT.sol",
+        "./ComposableOFTCore.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ComposableOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\composable\\ComposableBasedOFT.sol": {
+      "lastModificationDate": 1677662915800,
+      "contentHash": "57639e26de55395c9a8d0aa594adbfa6",
+      "sourceName": "contracts/token/oft/composable/ComposableBasedOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ComposableOFT.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ComposableBasedOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\MozaicLP.sol": {
+      "lastModificationDate": 1678123074657,
+      "contentHash": "e3808ec3ea983f32083bd643fe798ece",
+      "sourceName": "contracts/mContracts/MozaicLP.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/oft/composable/ComposableOFT.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MozaicLP"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\ExampleComposableOFT.sol": {
+      "lastModificationDate": 1677662915738,
+      "contentHash": "9bfb2c08705aeaaf569a7de58be7f3e6",
+      "sourceName": "contracts/examples/ExampleComposableOFT.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/oft/composable/ComposableOFT.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ExampleComposableOFT"
+      ]
+    },
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\token\\oft\\extension\\ProxyOFT.sol": {
       "lastModificationDate": 1677662915800,
       "contentHash": "77fcd8cfed4b2429c32bc80b19d76e47",
       "sourceName": "contracts/token/oft/extension/ProxyOFT.sol",
@@ -6072,7 +6159,7 @@
         "ProxyOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\ExampleOFT.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\ExampleOFT.sol": {
       "lastModificationDate": 1677942575978,
       "contentHash": "457edf3af4eb0abbc13f114e55ad170f",
       "sourceName": "contracts/examples/ExampleOFT.sol",
@@ -6116,7 +6203,7 @@
         "ExampleOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\ExampleBasedOFT20.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\ExampleBasedOFT20.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "543c2ceb668bea4a09013ec407e39e92",
       "sourceName": "contracts/examples/ExampleBasedOFT20.sol",
@@ -6160,7 +6247,7 @@
         "ExampleBasedOFT"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\MockToken.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\MockToken.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "2865b86e6a3ed57997911a8642fb5a2b",
       "sourceName": "contracts/mocks/MockToken.sol",
@@ -6204,7 +6291,7 @@
         "MockToken"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\LayerZeroTokenMock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\LayerZeroTokenMock.sol": {
       "lastModificationDate": 1677939024743,
       "contentHash": "ea5afe97c249a1bb40df478db4e2c2bb",
       "sourceName": "contracts/mocks/LayerZeroTokenMock.sol",
@@ -6248,7 +6335,7 @@
         "LayerZeroTokenMock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\ERC20Mock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\ERC20Mock.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "3cd3a8e534fa6f3c1ca79a7960f4e1b5",
       "sourceName": "contracts/mocks/ERC20Mock.sol",
@@ -6292,53 +6379,9 @@
         "ERC20Mock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\ExampleOFTV2.sol": {
-      "lastModificationDate": 1677662915738,
-      "contentHash": "ee904dae9cdd41725a4c3a42f85f6608",
-      "sourceName": "contracts/examples/ExampleOFTV2.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "../token/oft/v2/OFTV2.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ExampleOFTV2"
-      ]
-    },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mContracts\\MozaicVault.sol": {
-      "lastModificationDate": 1678126554736,
-      "contentHash": "f06f3bf9f5904ac80755e6b34ef181ad",
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\MozaicVault.sol": {
+      "lastModificationDate": 1678182356100,
+      "contentHash": "106e3cb47925d5bee987a9851071dfc2",
       "sourceName": "contracts/mContracts/MozaicVault.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -6380,7 +6423,7 @@
         "MozaicVault"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\examples\\OmniCounter.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\examples\\OmniCounter.sol": {
       "lastModificationDate": 1677662915738,
       "contentHash": "823225b3a6cdadee9d637f3e364e0bb1",
       "sourceName": "contracts/examples/OmniCounter.sol",
@@ -6424,7 +6467,7 @@
         "OmniCounter"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\ERC721Mock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\ERC721Mock.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "a1c9ffbdaecd79c8e05b664a54c1a135",
       "sourceName": "contracts/mocks/ERC721Mock.sol",
@@ -6468,7 +6511,7 @@
         "ERC721Mock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\mocks\\ERC1155Mock.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mocks\\ERC1155Mock.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "863434d4be4ccfb8772ef5eb6785d1d7",
       "sourceName": "contracts/mocks/ERC1155Mock.sol",
@@ -6512,7 +6555,7 @@
         "ERC1155Mock"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\LayerZeroPacket.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\LayerZeroPacket.sol": {
       "lastModificationDate": 1677923201207,
       "contentHash": "41bf7b5ea0bee9e021b879f8a0814d16",
       "sourceName": "contracts/util/LayerZeroPacket.sol",
@@ -6557,7 +6600,7 @@
         "LayerZeroPacket"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\Buffer.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\Buffer.sol": {
       "lastModificationDate": 1677923201206,
       "contentHash": "62dace4f71c1d8cdefbfa0178969113b",
       "sourceName": "contracts/util/Buffer.sol",
@@ -6599,7 +6642,7 @@
         "Buffer"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroOracleV2.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroOracleV2.sol": {
       "lastModificationDate": 1677923201190,
       "contentHash": "2c14210300d6d95b93c56c6569fcfb7e",
       "sourceName": "contracts/interfaces/ILayerZeroOracleV2.sol",
@@ -6641,7 +6684,7 @@
         "ILayerZeroOracleV2"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroReceiver copy.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroReceiver copy.sol": {
       "lastModificationDate": 1677923201190,
       "contentHash": "6a032748036b9c6cd717bbe60b296a6a",
       "sourceName": "contracts/interfaces/ILayerZeroReceiver copy.sol",
@@ -6683,7 +6726,7 @@
         "ILayerZeroReceiver"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroTreasury copy.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroTreasury copy.sol": {
       "lastModificationDate": 1677696796482,
       "contentHash": "acb6dc073230cd1211ab00799a1fe086",
       "sourceName": "contracts/interfaces/ILayerZeroTreasury copy.sol",
@@ -6725,7 +6768,7 @@
         "ILayerZeroTreasury"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\interfaces\\ILayerZeroUserApplicationConfig copy.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\interfaces\\ILayerZeroUserApplicationConfig copy.sol": {
       "lastModificationDate": 1677923201202,
       "contentHash": "b9137e036bbe54f3f8c840b241556ddf",
       "sourceName": "contracts/interfaces/ILayerZeroUserApplicationConfig copy.sol",
@@ -6767,7 +6810,7 @@
         "ILayerZeroUserApplicationConfig"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\RLPDecode.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\RLPDecode.sol": {
       "lastModificationDate": 1677923201207,
       "contentHash": "1cba145db86abb69e0e36704375e7f40",
       "sourceName": "contracts/util/RLPDecode.sol",
@@ -6809,7 +6852,7 @@
         "RLPDecode"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\util\\UltraLightNodeEVMDecoder.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\util\\UltraLightNodeEVMDecoder.sol": {
       "lastModificationDate": 1677923201207,
       "contentHash": "41aa8cfa8769a649e5a8086ee4a9c077",
       "sourceName": "contracts/util/UltraLightNodeEVMDecoder.sol",
@@ -6853,7 +6896,7 @@
         "UltraLightNodeEVMDecoder"
       ]
     },
-    "D:\\MACHINE_LEARNING\\MozaicCore\\contracts\\stargate\\WidgetSwap.sol": {
+    "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\stargate\\WidgetSwap.sol": {
       "lastModificationDate": 1677662915754,
       "contentHash": "bff63f8f702a91372df70008b5e6d16c",
       "sourceName": "contracts/stargate/WidgetSwap.sol",

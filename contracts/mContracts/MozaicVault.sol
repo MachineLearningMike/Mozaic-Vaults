@@ -6,10 +6,10 @@ import "../lzApp/NonblockingLzApp.sol";
 
 contract MozaicVault is NonblockingLzApp {
 
-    bool i_am_main;
+    bool public isMain;
 
-    constructor(address _lzEndpoint, bool main) NonblockingLzApp(_lzEndpoint) {
-        i_am_main = main;
+    constructor(address _lzEndpoint, bool _isMain) NonblockingLzApp(_lzEndpoint) {
+        isMain = _isMain;
     }
 
     function _nonblockingLzReceive(
