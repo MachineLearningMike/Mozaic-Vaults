@@ -220,9 +220,6 @@ describe("====================== Stage 2: Mozaic contracts =====================
         })
         consoleLogWithTab(`MozaicLP is deployed at ${nonceContract.address}`)
 
-
-        nVaults = 5;
-        nMain = 0;
         assert(nMain < nVaults);
 
         for( i = 0; i < nVaults; i ++) {
