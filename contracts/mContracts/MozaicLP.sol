@@ -13,7 +13,7 @@ contract MozaicLP is ComposableOFT {
     constructor(address _layerZeroEndpoint) ComposableOFT("Mozaic Liquidity Provider Token", "MLP", _layerZeroEndpoint) {
     }
 
-    function setValut(address _vault) onlyOwner external virtual {
+    function setVault(address _vault) onlyOwner external virtual {
         vault = _vault; // No need to require non-zero address. 
     }
 
