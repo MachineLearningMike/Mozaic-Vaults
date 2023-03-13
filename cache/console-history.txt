@@ -1,3 +1,51 @@
+ethers.provider.on(filter2, listen2);
+}
+console.log("Packet", log.topics);
+if(log.topics.includes(topic2)) {
+function listen2(log, event) {
+if(log.topics.includes(topic2) {
+function listen2(log, event) {
+}
+topics: [topic2],
+filter2 = {
+]
+topics: [topic2]
+filter2 = {
+topic2 = ethers.utils.id("Packet(bytes");
+'0x' + addr.slice(26)
+a = addr.slice(26)
+a = addr.slice(26).length
+a = addr.slice(26).length()
+a = addr.slice(26)
+a = addr.slice(24)
+a = addr.slice(12)
+addr
+ethers.provider.on(filter, listen);
+ethers.provider.removeAllListeners()
+}
+addr = log.topics[2];
+console.log(log.topics);
+if(log.topics.includes(topic)) {
+function listen(log, event) {
+var addr;
+function listen(log, event) {
+ethers.provider.on(filter, listen)
+ethers.provider.removeAllListeners()
+}
+console.log(log.topics);
+if(log.topics.includes(topic)) {
+function listen(log, event) {
+}
+topics: [topic],
+filter = {
+topic = ethers.utils.id("Deployed(address,address)");
+ethers.provider.on(filter, listen);
+ethers.provider.removeAllListeners()
+}
+addr = log.topics[2];
+if(log.topics.includes(topic)) {
+function listen(log, event) {
+var addr;
 topic
 n=0
 ethers.provider.on(filter, listen);
@@ -347,24 +395,4 @@ null,
 "Deploy(address, address)",
 topics: [
 address: null,
-filter = {
-};
-]
-null
-null,
-utils.id("Deploy(address, address)"),
-topics: [
-address: null,
-filter = {
-ethers.provider.on("block", listen)
-ethers.on("block", listen)
-}
-console.log(bn);
-function listen(bn) {
-ethers
-ethers.isProvider()
-console.log(listener)
-listener
-}
-console.log(bn);
-function listener(bn) {
+fi

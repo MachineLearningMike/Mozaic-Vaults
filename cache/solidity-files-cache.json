@@ -6201,8 +6201,8 @@
       ]
     },
     "D:\\MACHINE_LEARNING\\MOZAIC\\Vaults\\contracts\\mContracts\\MozaicVault.sol": {
-      "lastModificationDate": 1678732073592,
-      "contentHash": "23febcbee7c91c8bcf47976132a69b84",
+      "lastModificationDate": 1678732585793,
+      "contentHash": "d7066cb3cda27ae5a80276641e6e2b87",
       "sourceName": "contracts/mContracts/MozaicVault.sol",
       "solcConfig": {
         "version": "0.8.12",
