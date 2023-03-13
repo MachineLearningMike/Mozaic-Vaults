@@ -286,11 +286,6 @@ describe("====================== Stage 5: Sending cross-chain messages =========
         [owner, alice, bob, carol, dev, buyback, liquidity, treasury] = await ethers.getSigners();
         owner.name = "Owner"; alice.name = "Alice"; bob.name = "Bob"; carol.name = "Carol"; liquidity.name = "Liquidity"; treasury.name = "Treasury";
     
-        console.log("\tOwner address: ".cyan, owner.address, "Balance: ".cyan, await ethers.provider.getBalance(owner.address)/1e18);
-        console.log("\tAlice address: ".cyan, alice.address, "Balance: ".cyan, await ethers.provider.getBalance(alice.address)/1e18);
-        console.log("\tBob address: ".cyan, bob.address, "Balance: ".cyan, await ethers.provider.getBalance(bob.address)/1e18);
-        console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
-
         const { deploy } = deployments
         const { deployer, proxyOwner } = await getNamedAccounts()
         
