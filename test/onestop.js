@@ -250,7 +250,6 @@ describe("====================== Stage 3: Test LayerZero contracts =============
         const { deploy } = deployments
         const { deployer, proxyOwner } = await getNamedAccounts()
         
-        //========================== Deploy ============================
 
         // set each contracts source address so it can send to each other
 
@@ -265,9 +264,6 @@ describe("====================== Stage 3: Test LayerZero contracts =============
             await consoleLogWithTab(`${i} to 0: ${srcChainId}, ${path}`)
             await vaults[nMain].setTrustedRemote(srcChainId, path)
         }
-
-
-
 
     });
 
