@@ -272,17 +272,20 @@ describe("====================== Stage 3: Setup vaults ======================\n"
 });
 
 
-// describe("====================== Stage 4: Start Relayer ======================\n".yellow, async function () {
-//     it("Starting the Relayer ...\n".green, async function () {
-//         await setInterval(RelayerRound, 1000)
-//     });
-
-// });
+describe("====================== Stage 5: Sending cross-chain messages ======================\n".yellow, async function () {
+    it("Mozaic contracts are deployed.\n".green, async function () {
+        [owner, alice, bob, carol, dev, buyback, liquidity, treasury] = await ethers.getSigners();
+        owner.name = "Owner"; alice.name = "Alice"; bob.name = "Bob"; carol.name = "Carol"; liquidity.name = "Liquidity"; treasury.name = "Treasury";
+    
+        console.log("\tOwner address: ".cyan, owner.address, "Balance: ".cyan, await ethers.provider.getBalance(owner.address)/1e18);
+        console.log("\tAlice address: ".cyan, alice.address, "Balance: ".cyan, await ethers.provider.getBalance(alice.address)/1e18);
+        console.log("\tBob address: ".cyan, bob.address, "Balance: ".cyan, await ethers.provider.getBalance(bob.address)/1e18);
+        console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
 
         const { deploy } = deployments
         const { deployer, proxyOwner } = await getNamedAccounts()
         
 
-//     });
+    });
 
-// });
+});

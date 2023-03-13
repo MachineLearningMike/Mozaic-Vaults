@@ -376,6 +376,586 @@
       "MozaicVault": {
         "src": "contracts\\mContracts\\MozaicVault.sol:7",
         "version": {
+          "withMetadata": "d80f1859e1813d7fc7c5348120d95b76186f3769dca0bba4f29b554b6c2eac17",
+          "withoutMetadata": "3fa171b5a938f06e568147c654425c5c086f5f157dcdc6fda9f40a62ce788a4f",
+          "linkedWithoutMetadata": "3fa171b5a938f06e568147c654425c5c086f5f157dcdc6fda9f40a62ce788a4f"
+        },
+        "inherit": [
+          "NonblockingLzApp",
+          "LzApp",
+          "ILayerZeroUserApplicationConfig",
+          "ILayerZeroReceiver",
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "(address,bool)",
+          "ping(uint16,address,uint256)",
+          "()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "MozaicVault",
+            "src": "contracts\\mContracts\\MozaicVault.sol:12"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            },
+            {
+              "label": "trustedRemoteLookup",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_uint16,t_bytes_storage)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:23"
+            },
+            {
+              "label": "minDstGasLookup",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:24"
+            },
+            {
+              "label": "payloadSizeLimitLookup",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_mapping(t_uint16,t_uint256)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:25"
+            },
+            {
+              "label": "precrime",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:26"
+            },
+            {
+              "label": "failedMessages",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32)))",
+              "contract": "NonblockingLzApp",
+              "src": "contracts\\lzApp\\NonblockingLzApp.sol:18"
+            },
+            {
+              "label": "isMain",
+              "offset": 0,
+              "slot": "6",
+              "type": "t_bool",
+              "contract": "MozaicVault",
+              "src": "contracts\\mContracts\\MozaicVault.sol:10"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_bytes32": {
+              "label": "bytes32",
+              "numberOfBytes": "32"
+            },
+            "t_bytes_memory_ptr": {
+              "label": "bytes",
+              "numberOfBytes": "32"
+            },
+            "t_bytes_storage": {
+              "label": "bytes",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32))": {
+              "label": "mapping(bytes => mapping(uint64 => bytes32))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_bytes_storage)": {
+              "label": "mapping(uint16 => bytes)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32)))": {
+              "label": "mapping(uint16 => mapping(bytes => mapping(uint64 => bytes32)))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))": {
+              "label": "mapping(uint16 => mapping(uint16 => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_uint256)": {
+              "label": "mapping(uint16 => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint64,t_bytes32)": {
+              "label": "mapping(uint64 => bytes32)",
+              "numberOfBytes": "32"
+            },
+            "t_uint16": {
+              "label": "uint16",
+              "numberOfBytes": "2"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint64": {
+              "label": "uint64",
+              "numberOfBytes": "8"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "BytesLib": {
+        "src": "contracts\\util\\BytesLib.sol:12",
+        "version": {
+          "withMetadata": "ea77fdd064ce398d58ffef45cd3bdbf12522513fb0a76fd6da283bed1dbfe586",
+          "withoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db",
+          "linkedWithoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "ExcessivelySafeCall": {
+        "src": "contracts\\util\\ExcessivelySafeCall.sol:4",
+        "version": {
+          "withMetadata": "cf8ecc0d081ce05fa6962383be494916af495564126509e6f858e3cdc27cf7e4",
+          "withoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db",
+          "linkedWithoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "console": {
+        "src": "hardhat\\console.sol:4",
+        "version": {
+          "withMetadata": "45268a44e34613ee840b701abc43518bd2fd0c5111663943bd96f0ecc131fbf7",
+          "withoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db",
+          "linkedWithoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      }
+    },
+    {
+      "Ownable": {
+        "src": "@openzeppelin\\contracts\\access\\Ownable.sol:20",
+        "inherit": [
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@openzeppelin\\contracts\\access\\Ownable.sol:28"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "Context": {
+        "src": "@openzeppelin\\contracts\\utils\\Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "ILayerZeroEndpoint": {
+        "src": "contracts\\interfaces\\ILayerZeroEndpoint.sol:7",
+        "inherit": [
+          "ILayerZeroUserApplicationConfig"
+        ],
+        "libraries": [],
+        "methods": [
+          "send(uint16,bytes,bytes,address payable,address,bytes)",
+          "receivePayload(uint16,bytes,address,uint64,uint256,bytes)",
+          "getInboundNonce(uint16,bytes)",
+          "getOutboundNonce(uint16,address)",
+          "estimateFees(uint16,address,bytes,bool,bytes)",
+          "getChainId()",
+          "retryPayload(uint16,bytes,bytes)",
+          "hasStoredPayload(uint16,bytes)",
+          "getSendLibraryAddress(address)",
+          "getReceiveLibraryAddress(address)",
+          "isSendingPayload()",
+          "isReceivingPayload()",
+          "getConfig(uint16,uint16,address,uint256)",
+          "getSendVersion(address)",
+          "getReceiveVersion(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "ILayerZeroReceiver": {
+        "src": "contracts\\interfaces\\ILayerZeroReceiver.sol:5",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "lzReceive(uint16,bytes,uint64,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "ILayerZeroUserApplicationConfig": {
+        "src": "contracts\\interfaces\\ILayerZeroUserApplicationConfig.sol:5",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setConfig(uint16,uint16,uint256,bytes)",
+          "setSendVersion(uint16)",
+          "setReceiveVersion(uint16)",
+          "forceResumeReceive(uint16,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "LzApp": {
+        "src": "contracts\\lzApp\\LzApp.sol:16",
+        "inherit": [
+          "ILayerZeroUserApplicationConfig",
+          "ILayerZeroReceiver",
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [
+          "BytesLib",
+          "console"
+        ],
+        "methods": [
+          "lzReceive(uint16,bytes,uint64,bytes)",
+          "getConfig(uint16,uint16,address,uint256)",
+          "setConfig(uint16,uint16,uint256,bytes)",
+          "setSendVersion(uint16)",
+          "setReceiveVersion(uint16)",
+          "forceResumeReceive(uint16,bytes)",
+          "setTrustedRemote(uint16,bytes)",
+          "setTrustedRemoteAddress(uint16,bytes)",
+          "getTrustedRemoteAddress(uint16)",
+          "setPrecrime(address)",
+          "setMinDstGas(uint16,uint16,uint256)",
+          "setPayloadSizeLimit(uint16,uint256)",
+          "isTrustedRemote(uint16,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "LzApp",
+            "src": "contracts\\lzApp\\LzApp.sol:33"
+          },
+          {
+            "kind": "state-variable-immutable",
+            "name": "lzEndpoint",
+            "src": "contracts\\lzApp\\LzApp.sol:22"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            },
+            {
+              "label": "trustedRemoteLookup",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_uint16,t_bytes_storage)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:23"
+            },
+            {
+              "label": "minDstGasLookup",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:24"
+            },
+            {
+              "label": "payloadSizeLimitLookup",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_mapping(t_uint16,t_uint256)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:25"
+            },
+            {
+              "label": "precrime",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:26"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bytes_storage": {
+              "label": "bytes",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_bytes_storage)": {
+              "label": "mapping(uint16 => bytes)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))": {
+              "label": "mapping(uint16 => mapping(uint16 => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_uint256)": {
+              "label": "mapping(uint16 => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint16": {
+              "label": "uint16",
+              "numberOfBytes": "2"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "NonblockingLzApp": {
+        "src": "contracts\\lzApp\\NonblockingLzApp.sol:13",
+        "inherit": [
+          "LzApp",
+          "ILayerZeroUserApplicationConfig",
+          "ILayerZeroReceiver",
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [
+          "ExcessivelySafeCall"
+        ],
+        "methods": [
+          "nonblockingLzReceive(uint16,bytes,uint64,bytes)",
+          "retryMessage(uint16,bytes,uint64,bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "NonblockingLzApp",
+            "src": "contracts\\lzApp\\NonblockingLzApp.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Ownable",
+              "src": "@openzeppelin\\contracts\\access\\Ownable.sol:21"
+            },
+            {
+              "label": "trustedRemoteLookup",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_uint16,t_bytes_storage)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:23"
+            },
+            {
+              "label": "minDstGasLookup",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:24"
+            },
+            {
+              "label": "payloadSizeLimitLookup",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_mapping(t_uint16,t_uint256)",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:25"
+            },
+            {
+              "label": "precrime",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "LzApp",
+              "src": "contracts\\lzApp\\LzApp.sol:26"
+            },
+            {
+              "label": "failedMessages",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32)))",
+              "contract": "NonblockingLzApp",
+              "src": "contracts\\lzApp\\NonblockingLzApp.sol:18"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bytes32": {
+              "label": "bytes32",
+              "numberOfBytes": "32"
+            },
+            "t_bytes_memory_ptr": {
+              "label": "bytes",
+              "numberOfBytes": "32"
+            },
+            "t_bytes_storage": {
+              "label": "bytes",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32))": {
+              "label": "mapping(bytes => mapping(uint64 => bytes32))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_bytes_storage)": {
+              "label": "mapping(uint16 => bytes)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_mapping(t_uint64,t_bytes32)))": {
+              "label": "mapping(uint16 => mapping(bytes => mapping(uint64 => bytes32)))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_mapping(t_uint16,t_uint256))": {
+              "label": "mapping(uint16 => mapping(uint16 => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint16,t_uint256)": {
+              "label": "mapping(uint16 => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_uint64,t_bytes32)": {
+              "label": "mapping(uint64 => bytes32)",
+              "numberOfBytes": "32"
+            },
+            "t_uint16": {
+              "label": "uint16",
+              "numberOfBytes": "2"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint64": {
+              "label": "uint64",
+              "numberOfBytes": "8"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "MozaicVault": {
+        "src": "contracts\\mContracts\\MozaicVault.sol:7",
+        "version": {
           "withMetadata": "18521a5e255a584f9c80ed85af4353dfa6d250165e7ecb839ab4972e4d8506ea",
           "withoutMetadata": "62336073c9d2e19623df1ebe97aa31f95e3852b2d45f7626fec5f0e837639cec",
           "linkedWithoutMetadata": "62336073c9d2e19623df1ebe97aa31f95e3852b2d45f7626fec5f0e837639cec"

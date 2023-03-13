@@ -15,6 +15,32 @@ contract MozaicVault is NonblockingLzApp {
         emit Deployed(address(this), _lzEndpoint);
     }
 
+    function ping(
+        uint16 _dstChainId, // send a ping to this destination chainId
+        address, // destination address of PingPong contract
+        uint pings // the number of pings
+    ) public payable {
+        require(address(this).balance > 0, "the balance of this contract is 0. pls send gas for message fees");
+
+        // encode the payload with the number of pings
+        bytes memory payload = abi.encode(pings);
+
+        // use adapterParams v1 to specify more gas for the destination
+        uint16 version = 1;
+        uint gasForDestinationLzReceive = 350000;
+        bytes memory adapterParams = abi.encodePacked(version, gasForDestinationLzReceive);
+
+        // send LayerZero message
+        _lzSend( // {value: messageFee} will be paid out of this contract!
+            _dstChainId,
+            payload,
+            payable(this),
+            address(0x0), 
+            adapterParams,
+            msg.value
+        );
+    }
+
     function _nonblockingLzReceive(
         uint16 _srcChainId,
         bytes memory _srcAddress,
