@@ -225,4 +225,146 @@ filter = {
 }
 console.log(even);
 function listen(log, event) {
-ethers.provider.on(filter, listen);
+ethers.provider.on(filter, listen);
+}
+]
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics: [
+address: null,
+filter = {
+topics: [
+address: null,
+filter = {
+ethers.utils.id("Deploy(address, indexed deployedAt, address lzPoint")
+ethers.provider.on(filter, listen);
+};
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics: [
+address: null,
+filter = {
+};
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics = [
+address: null,
+filter = {
+ethers.provider.on(filter, listen)
+}
+console.log(n, event.blockNumber, event.address, event.transactionHash, event.logIndex);
+n = n + 1;
+if(event != undefined) {
+function listen(log, event) {
+n=n+1;
+function listen(log, event) {
+n = 0;
+let n = 0;
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+}
+console.log(event)
+if (event) {
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+ethers.provider.log(filter, listen);
+};
+console.log(log);
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+}
+console.log("event", n);
+n = n + 1;
+function listen(log, event) {
+let n = 0;
+}
+console.log("event received");
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+ethers.provider.removeAllListeners()
+};
+]
+null,
+topics: [
+address: null,
+filter = {
+filter
+console.log(listen)
+listen
+ethers.provider.on(filter, listen);
+};
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics: [
+address: null,
+filter = {
+topics : [
+};
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics = [
+address: null,
+filter = {
+}
+console.log(event);
+function listen(log, event) {
+ethers.provider.removeAllListeners()
+ethers.provider.remove()
+ethers.provider.on(filter, listen);
+};
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics: [
+address: null,
+filter = {
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint"),
+filter = {
+address: null,
+filter = {
+ethers.provider.on(filter, listen);
+};
+],
+null,
+ethers.utils.id("Deploy(address, address)"),
+topics: [
+address: null,
+filter = {
+ethers.provider.on(filter, listen);
+ethers.on(filter, listen);
+}
+console.log(event);
+console.log(log);
+function listen(log, event) {
+filter
+};
+]
+null,
+"Deploy(address, address)",
+topics: [
+address: null,
+filter = {
+};
+]
+null
+null,
+utils.id("Deploy(address, address)"),
+topics: [
+address: null,
+filter = {
+ethers.provider.on("block", listen)
+ethers.on("block", listen)
+}
+console.log(bn);
+function listen(bn) {
+ethers
+ethers.isProvider()
+console.log(listener)
+listener
+}
+console.log(bn);
+function listener(bn) {
