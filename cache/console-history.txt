@@ -395,4 +395,24 @@ null,
 "Deploy(address, address)",
 topics: [
 address: null,
-fi
+filter = {
+};
+]
+null
+null,
+utils.id("Deploy(address, address)"),
+topics: [
+address: null,
+filter = {
+ethers.provider.on("block", listen)
+ethers.on("block", listen)
+}
+console.log(bn);
+function listen(bn) {
+ethers
+ethers.isProvider()
+console.log(listener)
+listener
+}
+console.log(bn);
+function listener(bn) {
