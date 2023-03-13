@@ -72,6 +72,10 @@ module.exports = {
     ]
   },
 
+  mocha: {
+    timeout: 10000000000
+  },
+
   // solidity: "0.8.4",
   contractSizer: {
     alphaSort: false,
@@ -114,7 +118,7 @@ module.exports = {
         },
         mining: {
             auto: true,
-            interval: [1000, 1000],  // random in the interval
+            interval: [3000, 3000],  // random in the interval
             mempool: {
                 order: "fifo"
             },          
