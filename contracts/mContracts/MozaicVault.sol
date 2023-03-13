@@ -5,11 +5,14 @@ pragma solidity ^0.8.0;
 import "../lzApp/NonblockingLzApp.sol";
 
 contract MozaicVault is NonblockingLzApp {
+    event Deployed(address indexed at, address indexed lzPoint);
 
     bool public isMain;
 
     constructor(address _lzEndpoint, bool _isMain) NonblockingLzApp(_lzEndpoint) {
         isMain = _isMain;
+
+        emit Deployed(address(this), _lzEndpoint);
     }
 
     function _nonblockingLzReceive(

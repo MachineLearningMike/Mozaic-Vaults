@@ -291,10 +291,7 @@ describe("====================== Stage 5: Sending cross-chain messages =========
         
         // await setInterval(() => {}, 100000)
         while(true) {
-            // setTimeout(()=>{}, 50);
-            // await ethers.provider.getBalance(owner.address)/1e18;
-            console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
-
+            await setTimeout( async()=>{ n = 3;}, 50);
         }
 
     });

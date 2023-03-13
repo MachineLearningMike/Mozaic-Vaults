@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@layerzerolabs/lz-sdk": "^0.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-ganache": "^2.0.1",
     "@openzeppelin/contracts": "^4.4.1",
     "@openzeppelin/contracts-upgradeable": "^4.6.0",

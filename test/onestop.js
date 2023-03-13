@@ -230,6 +230,7 @@ describe("====================== Stage 2: Mozaic contracts =====================
             if(i == nMain) { isMain = true; }
 
             vault = await Vault.deploy(endpoint.address, isMain)
+            // await vault.logAddress();
             consoleLogWithTab(`MozaicVault ${i} is deployed at ${vault.address}`)
             vaults.push(vault)
         }
@@ -253,6 +254,7 @@ describe("====================== Stage 3: Setup vaults ======================\n"
 
         // set each contract source address so it can send to each other
 
+
         for (i = 0; i < nVaults; i ++) {
             srcChainId = parseInt(vaults[nMain].address.toString(16).slice(0, 4))
             path = ethers.utils.solidityPack(["address", "address"], [vaults[nMain].address, vaults[i].address])
@@ -269,39 +271,39 @@ describe("====================== Stage 3: Setup vaults ======================\n"
 
 });
 
-function RelayerRound() {
-    console.log("Staring a relayer round ... ")
-    console.log("Ending the relayer round ...")
-}
+// function RelayerRound() {
+//     console.log("Staring a relayer round ... ")
+//     console.log("Ending the relayer round ...")
+// }
 
-describe("====================== Stage 4: Start Relayer ======================\n".yellow, async function () {
-    it("Starting the Relayer ...\n".green, async function () {
-        await setInterval(RelayerRound, 1000)
-    });
+// describe("====================== Stage 4: Start Relayer ======================\n".yellow, async function () {
+//     it("Starting the Relayer ...\n".green, async function () {
+//         await setInterval(RelayerRound, 1000)
+//     });
 
-});
+// });
 
-describe("====================== Stage 5: Sending cross-chain messages ======================\n".yellow, async function () {
-    it("Mozaic contracts are deployed.\n".green, async function () {
-        [owner, alice, bob, carol, dev, buyback, liquidity, treasury] = await ethers.getSigners();
-        owner.name = "Owner"; alice.name = "Alice"; bob.name = "Bob"; carol.name = "Carol"; liquidity.name = "Liquidity"; treasury.name = "Treasury";
+// describe("====================== Stage 5: Sending cross-chain messages ======================\n".yellow, async function () {
+//     it("Mozaic contracts are deployed.\n".green, async function () {
+//         [owner, alice, bob, carol, dev, buyback, liquidity, treasury] = await ethers.getSigners();
+//         owner.name = "Owner"; alice.name = "Alice"; bob.name = "Bob"; carol.name = "Carol"; liquidity.name = "Liquidity"; treasury.name = "Treasury";
     
-        console.log("\tOwner address: ".cyan, owner.address, "Balance: ".cyan, await ethers.provider.getBalance(owner.address)/1e18);
-        console.log("\tAlice address: ".cyan, alice.address, "Balance: ".cyan, await ethers.provider.getBalance(alice.address)/1e18);
-        console.log("\tBob address: ".cyan, bob.address, "Balance: ".cyan, await ethers.provider.getBalance(bob.address)/1e18);
-        console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
+//         console.log("\tOwner address: ".cyan, owner.address, "Balance: ".cyan, await ethers.provider.getBalance(owner.address)/1e18);
+//         console.log("\tAlice address: ".cyan, alice.address, "Balance: ".cyan, await ethers.provider.getBalance(alice.address)/1e18);
+//         console.log("\tBob address: ".cyan, bob.address, "Balance: ".cyan, await ethers.provider.getBalance(bob.address)/1e18);
+//         console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
 
-        const { deploy } = deployments
-        const { deployer, proxyOwner } = await getNamedAccounts()
+//         const { deploy } = deployments
+//         const { deployer, proxyOwner } = await getNamedAccounts()
         
-        // await setInterval(() => {}, 100000)
-        while(true) {
-            // setTimeout(()=>{}, 50);
-            // await ethers.provider.getBalance(owner.address)/1e18;
-            console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
+//         // await setInterval(() => {}, 100000)
+//         while(true) {
+//             // setTimeout(()=>{}, 50);
+//             // await ethers.provider.getBalance(owner.address)/1e18;
+//             console.log("\tCarol address: ".cyan, carol.address, "Balance: ".cyan, await ethers.provider.getBalance(carol.address)/1e18);
 
-        }
+//         }
 
-    });
+//     });
 
-});
+// });

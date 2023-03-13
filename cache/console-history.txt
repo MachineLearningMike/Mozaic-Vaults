@@ -1,0 +1,228 @@
+topic
+n=0
+ethers.provider.on(filter, listen);
+ethers.provider.removeAllListeners()
+}
+console.log(++n, log.topics);
+if(log.topics.includes(topic)) {
+function listen(log, event) {
+n=0
+ethers.provider.on(filter, listen);
+}
+console.log(++n, log.topcis);
+if(log && log.topics.includes(topic)) {
+function listen(log, event) {
+ethers.provider.removeAllListeners()
+}
+topics: [topic],
+filter = {
+topic = ethers.utils.id("Deployed(address,address)")
+ethers.provider.on(filter, listen);
+ethers.proveder.on(filter, listen);
+ethers.provider.removeAllListeners()
+}
+console.log(++n, log.topics);
+if (log.topics.includes(topic)) {
+function listen(log, event) {
+if(log.topics.includes(topic) {
+function listen(log, event) {
+if(log.topics.includes(topic) {
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+}
+console.log(n++, log);
+function listen(log, event) {
+ethers.provider.removeAllListeners()
+}
+topics: [topic],
+filter = {
+topic
+n=0
+ethers.provider.on(filter, listen);
+ethers.provider.removeAllListeners()
+fds
+ethers.provider.removeAllListeners()
+ethers.provider.on(filter, listen);
+ethers.providfer.on(filter, listen);
+}
+console.log(++n);
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+}
+console.log(++n, event.blockNumber);
+function listen(log, event) {
+n=0
+functi
+ethers.provider.on(filter, listen);
+}
+console(++n, log.topics);
+function listen(log, event) {
+funciton listen(log, event) {
+}
+topics: [topic],
+filter = {
+topic
+n=0
+ethers.provider.on(filter, listen);
+}
+console.log(++n, log);
+if(log && log.topics.includes(topic)) {
+function listen(log, event) {
+}
+topic,]
+topics: [
+filter = {
+topics = {
+topic = ethers.utils.id("Address(address)");
+['b'].includes('a')
+['a', 'b'].includes('a')
+['a', 'b'].contain('a')
+['a', 'b'].contains('a')
+['a', 'b'].has('a')
+'a' in ['a', 'b']
+'a
+'b']
+'a' in ['a', 
+1 in [1, 3]
+a in [a, b]
+true
+ethers.provider.on(filter, listen);
+}
+console.log(++n, log);
+if(log && topin in log.topics) {
+function listen(log, event) {
+funtion listen(log, event) {
+n=0
+}
+{
+}
+{
+}
+console.log(++n, log);
+if(log && topin in log.topics) {
+function listen(log, event) {
+topic = ethers.utils.id("Address(address)");
+if(log) {
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+};
+],
+ethers.utils.id("Address(address)"),
+topics: [
+filter = {
+}
+],
+ethers.utils,id("Address(address"),
+topics: [
+filter = {
+ethers.utils.id(),
+topics: [
+filter = {
+address: null,
+filter = {
+n = 0;
+n=0
+ethers.provider.on(filter, listen);
+};
+],
+null,
+topics: [
+address: null,
+filter = {
+ethers.provider.on(filter, listen);
+}
+console.log(++n, log, event);
+function listen(log, event) {
+filter = {}
+filter = {
+n = 0
+ethers.provider.on(filter, listen);
+ethers.provider.on(filter, lesten);
+}
+console.log(++n, log, event);
+function listen(log, event) {
+n=0;
+}
+],
+null,
+ethers.utils.id("Address(address)"),
+topics: [
+address: null,
+filter = {
+ethers.provider.on(filter, listen)
+}
+],
+null,
+ethers.utils.id("Address(address)"),
+topics: [
+address: null,
+filter = {
+}
+console(n, log, event);
+n=n+1;
+function listen(log, event) {
+n=0
+ethers.provider.on(filter, listen);
+};
+]
+null,
+ethers.utils.id("Address(address)"),
+topics: [
+address: null,
+filter = {
+}
+null
+ethers.utils.id("Address(address)"),
+topics: [
+address: null,
+filter = {
+ethers.utils.id("Deploy(address,address");
+ethers.provider.on(filter, listen);
+filter = {}
+null,
+topics: [
+address: null,
+filter = {
+ethers.provider.on(filter, listen);
+}
+console.log(n, log, event);
+function listen(log, event) {
+n = 0;
+ethers.provider.on(filter, listen);
+}
+console.log(n, event.address);
+function listen(log, event) {
+n = 0;
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+};
+]
+null,
+ethers.utils.id("Deploy(address,address)"),
+topic: [
+address: null,
+filter = {
+}
+console.log(n, event);
+n = n + 1;
+function listen(log, event) {
+}
+console.log(n, event);
+function listen(log, event) {
+}
+console.log(event);
+function listen(log, event) {
+let n = 0;
+function listen(log, event) {
+ethers.provider.on(filter, listen);
+}
+],
+null,
+ethers.utils.id("Deploy(address indexed deployedAt, address lzPoint)"),
+topics: [
+address: null,
+filter = {
+}
+console.log(even);
+function listen(log, event) {
+ethers.provider.on(filter, listen);
